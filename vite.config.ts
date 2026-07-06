@@ -10,5 +10,6 @@ function normalizeBasePath(value: string | undefined): string {
 }
 
 export default defineConfig({
+  plugins: [],
   base: normalizeBasePath(process.env.VITE_BASE_PATH),
 });
