@@ -1,0 +1,28 @@
+{
+  "name": "catcafemap",
+  "version": "1.0.0",
+  "description": "Barebones cat cafe map proof of concept.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "fetch:osm": "tsx scripts/fetch-osm.ts",
+    "build:data": "tsx scripts/build-geojson.ts",
+    "audit:data": "tsx scripts/audit-data.ts",
+    "data": "npm run fetch:osm && npm run build:data && npm run audit:data"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "mapbox-gl": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "^26.1.0",
+    "tsx": "^4.23.0",
+    "typescript": "^6.0.3",
+    "vite": "^8.1.3"
+  }
+}

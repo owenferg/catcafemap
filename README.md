@@ -1,0 +1,1 @@
+A simple webmap to view cat cafes located in the U.S. and Canada

@@ -1,0 +1,19 @@
+name,city,region,country,reason,source_url
+Purrfect Day Cat Cafe,Louisville,KY,US,duplicate of curated Louisville row,https://www.openstreetmap.org/node/3375209372
+Souvenir Coffee,Oakland,CA,US,coffee shop associated with Cat Town but not separate cat cafe listing,https://www.openstreetmap.org/node/5614564680
+Pounce Cat Café + Wine Bar,Charleston,SC,US,duplicate of curated Charleston row,https://www.openstreetmap.org/node/12786856177
+Cat Cafe,Los Angeles,CA,US,duplicate of curated CatCafe Lounge row,https://www.openstreetmap.org/node/8707394226
+El Gato Coffee House,Houston,TX,US,duplicate of curated El Gato Coffeehouse row,https://www.openstreetmap.org/node/11237614803
+Bastet Cat,Tijuana,,US,outside US/Canada scope; OSM country inference is wrong,https://www.openstreetmap.org/way/1045087885
+Lucky Cat Café and Lounge,Louisville,KY,US,official website redirects to unrelated domain during verification,https://www.openstreetmap.org/node/9915806511
+PURRsonal Space,Palmyra,NJ,US,listed website returns 404 during verification,https://www.openstreetmap.org/node/11237597958
+Sunshine Kitty Catfe,Saint Petersburg,FL,US,listed website returns hosting default page during verification,https://www.openstreetmap.org/way/198366577
+Topeka Cat Cafe,Topeka,KS,US,official site says it permanently closed on June 14 2026,https://www.openstreetmap.org/node/13448001404
+Cat & Craft Cafe,Carlsbad,CA,US,official domain is expired and does not verify current active cat cafe status,https://www.openstreetmap.org/node/7199418742
+Coffee & Purrs,Sioux City,IA,US,listed official domain does not resolve during verification,https://www.openstreetmap.org/node/11173887966
+The Twisted Whisker Cat Cafe,Tupelo,MS,US,listed official domain does not resolve during verification,https://www.openstreetmap.org/node/11209529843
+Whiskers & Meows Cat Cafe,Casper,WY,US,listed official domain does not resolve during verification,https://www.openstreetmap.org/node/11209557490
+The Calico Cafe,Brookville,PA,US,listed official domain fails DNS during verification,https://www.openstreetmap.org/node/11241340770
+Mochas and Meows,Branson,MO,US,listed official domain does not resolve during verification,https://www.openstreetmap.org/way/1187504739
+Whiskers Cat Café,Grande Prairie,AB,CA,no official website in OSM and targeted web search found no current official source,https://www.openstreetmap.org/node/11242214877
+Cleocatra Cafe,Winnipeg,MB,CA,no official website in OSM and targeted web search found no current official source,https://www.openstreetmap.org/node/11382077564

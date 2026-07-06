@@ -1,0 +1,4985 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.7498626,
+          29.7690161
+        ]
+      },
+      "properties": {
+        "id": "9-whiskers-lounge-katy",
+        "name": "9 Whiskers Lounge",
+        "address": "510 S Mason Rd",
+        "city": "Katy",
+        "region": "TX",
+        "country": "US",
+        "website": "https://www.9whiskers.com/",
+        "source_url": "https://www.9whiskers.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.0706798,
+          42.3581779
+        ]
+      },
+      "properties": {
+        "id": "a-sanctuary-cafe-boston",
+        "name": "A Sanctuary Cafe",
+        "address": "80 Charles Street",
+        "city": "Boston",
+        "region": "MA",
+        "country": "US",
+        "website": "https://asanctuarycafe.com/",
+        "source_url": "https://asanctuarycafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 7828185888,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5902159,
+          39.2845792
+        ]
+      },
+      "properties": {
+        "id": "affogatto-baltimore",
+        "name": "Affogatto",
+        "address": "600 S Wolfe St",
+        "city": "Baltimore",
+        "region": "MD",
+        "country": "US",
+        "website": "https://www.affogatto.com/",
+        "source_url": "https://www.affogatto.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.3758597,
+          41.291424
+        ]
+      },
+      "properties": {
+        "id": "all-the-single-kitties-cat-cafe-old-saybrook",
+        "name": "All the Single Kitties Cat Cafe",
+        "address": "242 Main Street",
+        "city": "Old Saybrook",
+        "region": "CT",
+        "country": "US",
+        "website": "https://allthesinglekitties.org/",
+        "source_url": "https://allthesinglekitties.org/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.981718,
+          43.3694152
+        ]
+      },
+      "properties": {
+        "id": "alley-cat-stratford",
+        "name": "Alley Cat",
+        "address": "1 Market Place",
+        "city": "Stratford",
+        "region": "ON",
+        "country": "CA",
+        "website": "https://www.alleycatcafe.ca/",
+        "source_url": "https://www.alleycatcafe.ca/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 6768364108,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4992218,
+          42.4398927
+        ]
+      },
+      "properties": {
+        "id": "alley-cat-cafe-ithaca",
+        "name": "Alley Cat Cafe",
+        "address": "112 N Cayuga St",
+        "city": "Ithaca",
+        "region": "NY",
+        "country": "US",
+        "website": "https://www.alleycatithaca.com/",
+        "source_url": "https://www.alleycatithaca.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.1232635,
+          49.9299683
+        ]
+      },
+      "properties": {
+        "id": "annie-s-attic-thrift-shop-cat-cafe-winnipeg",
+        "name": "Annie's Attic Thrift Shop & Cat Cafe",
+        "address": "1560 Main St",
+        "city": "Winnipeg",
+        "region": "MB",
+        "country": "CA",
+        "website": "https://anniesattic.ca/cat-cafe/",
+        "source_url": "https://anniesattic.ca/cat-cafe/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8703431,
+          38.4509476
+        ]
+      },
+      "properties": {
+        "id": "aristocat-cafe-harrisonburg",
+        "name": "Aristocat Cafe",
+        "address": "111 North Liberty Street",
+        "city": "Harrisonburg",
+        "region": "VA",
+        "country": "US",
+        "website": "https://www.aristocat.cafe/",
+        "source_url": "https://www.aristocat.cafe/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11013020120,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.4262112,
+          42.4696617
+        ]
+      },
+      "properties": {
+        "id": "avocato-catfe-adoption-center-farmington-hills",
+        "name": "Avocato Catfe & Adoption Center",
+        "address": "38437 Grand River Ave",
+        "city": "Farmington Hills",
+        "region": "MI",
+        "country": "US",
+        "website": "https://avocato.org/",
+        "source_url": "https://avocato.org/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1859868,
+          41.6693732
+        ]
+      },
+      "properties": {
+        "id": "bajah-s-cat-cafe-tiverton",
+        "name": "Bajah's Cat Cafe",
+        "address": "137 Main Road",
+        "city": "Tiverton",
+        "region": "RI",
+        "country": "US",
+        "website": "https://www.bajahscatcafe.com/",
+        "source_url": "https://www.bajahscatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11160792234,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.7320109,
+          42.8333028
+        ]
+      },
+      "properties": {
+        "id": "baristacats-cafe-whitewater",
+        "name": "BaristaCats Café",
+        "address": "135 West Center Street",
+        "city": "Whitewater",
+        "region": "WI",
+        "country": "US",
+        "website": "https://baristacatscafe.org/",
+        "source_url": "https://baristacatscafe.org/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11209563427,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9701454,
+          41.5049883
+        ]
+      },
+      "properties": {
+        "id": "beans-cat-cafe-beacon-beacon",
+        "name": "Beans Cat Cafe Beacon",
+        "address": "325 Main Street",
+        "city": "Beacon",
+        "region": "NY",
+        "country": "US",
+        "website": "https://www.beanscatcafe.com/",
+        "source_url": "https://www.beanscatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11222993293,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0862539,
+          41.7482929
+        ]
+      },
+      "properties": {
+        "id": "beans-cat-cafe-new-paltz-new-paltz",
+        "name": "Beans Cat Cafe New Paltz",
+        "address": "11 Church Street",
+        "city": "New Paltz",
+        "region": "NY",
+        "country": "US",
+        "website": "https://www.beanscatcafe.com/",
+        "source_url": "https://www.beanscatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11222981028,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.3350369,
+          38.9514319
+        ]
+      },
+      "properties": {
+        "id": "bertha-s-beans-cat-cafe-columbia",
+        "name": "Bertha's Beans Cat Cafe",
+        "address": "14 South 2nd Street",
+        "city": "Columbia",
+        "region": "MO",
+        "country": "US",
+        "website": "https://berthasbeans.com/",
+        "source_url": "https://berthasbeans.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8621811,
+          38.8477808
+        ]
+      },
+      "properties": {
+        "id": "biscuit-factory-cat-lounge-colorado-springs",
+        "name": "Biscuit Factory Cat Lounge",
+        "address": "12 S 25th Street",
+        "city": "Colorado Springs",
+        "region": "CO",
+        "country": "US",
+        "website": "https://www.biscuitfactorycat.com/",
+        "source_url": "https://www.biscuitfactorycat.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.1649713,
+          39.1862952
+        ]
+      },
+      "properties": {
+        "id": "biscuits-beans-cat-cafe-winchester",
+        "name": "Biscuits & Beans Cat Café",
+        "address": "185 N. Loudoun Street",
+        "city": "Winchester",
+        "region": "VA",
+        "country": "US",
+        "website": "https://biscuitsandbeans.com/",
+        "source_url": "https://biscuitsandbeans.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9415263,
+          40.4649514
+        ]
+      },
+      "properties": {
+        "id": "black-cat-market-pittsburgh",
+        "name": "Black Cat Market",
+        "address": "5135 Penn Avenue",
+        "city": "Pittsburgh",
+        "region": "PA",
+        "country": "US",
+        "website": "https://blackcatmarketpgh.com/",
+        "source_url": "https://blackcatmarketpgh.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.1340774,
+          41.1211199
+        ]
+      },
+      "properties": {
+        "id": "black-forest-cat-cafe-fort-wayne",
+        "name": "Black Forest Cat Café",
+        "address": "4716 Coldwater Road",
+        "city": "Fort Wayne",
+        "region": "IN",
+        "country": "US",
+        "website": "https://blackforestcatcafe.com/",
+        "source_url": "https://blackforestcatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11167201446,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5604933,
+          36.5464885
+        ]
+      },
+      "properties": {
+        "id": "boops-beans-cat-cafe-kingsport",
+        "name": "Boops & Beans Cat Cafe",
+        "address": "207 Broad St.",
+        "city": "Kingsport",
+        "region": "TN",
+        "country": "US",
+        "website": "https://www.boopsandbeanscatcafe.com/",
+        "source_url": "https://www.boopsandbeanscatcafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.5016157,
+          35.8571733
+        ]
+      },
+      "properties": {
+        "id": "brews-and-mews-cat-cafe-lenoir",
+        "name": "Brews and Mews Cat Cafe",
+        "address": "219 Main St.",
+        "city": "Lenoir",
+        "region": "NC",
+        "country": "US",
+        "website": "https://www.brewsandmewscafe.com/",
+        "source_url": "https://www.brewsandmewscafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.99567,
+          40.69469
+        ]
+      },
+      "properties": {
+        "id": "brooklyn-cat-cafe-brooklyn",
+        "name": "Brooklyn Cat Cafe",
+        "address": "76 Montague St",
+        "city": "Brooklyn",
+        "region": "NY",
+        "country": "US",
+        "website": "https://catcafebk.com/",
+        "source_url": "https://catcafebk.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5410654,
+          39.1867607
+        ]
+      },
+      "properties": {
+        "id": "btown-meow-cat-cafe-bloomington",
+        "name": "Btown Meow Cat Cafe",
+        "address": "5015 SR 46 Unit H",
+        "city": "Bloomington",
+        "region": "IN",
+        "country": "US",
+        "website": "https://btownmeow.com/",
+        "source_url": "https://btownmeow.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.57591,
+          45.51796
+        ]
+      },
+      "properties": {
+        "id": "cafe-chat-l-heureux-montreal",
+        "name": "Cafe Chat L'Heureux",
+        "address": "172 Duluth Ave E",
+        "city": "Montreal",
+        "region": "QC",
+        "country": "CA",
+        "website": "https://cafechatlheureux.com/",
+        "source_url": "https://cafechatlheureux.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5720042,
+          45.4570923
+        ]
+      },
+      "properties": {
+        "id": "cafe-chato-montreal",
+        "name": "Café Chato",
+        "address": "4833 Rue de Verdun",
+        "city": "Montréal",
+        "region": "QC",
+        "country": "CA",
+        "website": "https://cafechato.ca/",
+        "source_url": "https://cafechato.ca/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 6910986734,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2118312,
+          46.8167783
+        ]
+      },
+      "properties": {
+        "id": "cafe-felin-ma-langue-aux-chats-quebec",
+        "name": "Café Félin - Ma langue aux chats",
+        "address": "307 Rue Saint-Paul",
+        "city": "Québec",
+        "region": "QC",
+        "country": "CA",
+        "website": "https://cafemalangueauxchats.ca/",
+        "source_url": "https://cafemalangueauxchats.ca/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 5731365722,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.40331,
+          30.38722
+        ]
+      },
+      "properties": {
+        "id": "cara-s-cat-cafe-destin",
+        "name": "Cara's Cat Café",
+        "address": "4507 Furling Lane Suite 101",
+        "city": "Destin",
+        "region": "FL",
+        "country": "US",
+        "website": "https://carascatcafe.com/",
+        "source_url": "https://carascatcafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.1236052,
+          40.4658967
+        ]
+      },
+      "properties": {
+        "id": "cat-cafe-kokomo-humane-society-kokomo",
+        "name": "Cat Cafe Kokomo Humane Society",
+        "address": "729 East Hoffer Street",
+        "city": "Kokomo",
+        "region": "IN",
+        "country": "US",
+        "website": "https://kokomohumane.org/cat-cafe/",
+        "source_url": "https://kokomohumane.org/cat-cafe/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11167150703,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.4744889,
+          20.8889596
+        ]
+      },
+      "properties": {
+        "id": "cat-cafe-maui-kahului",
+        "name": "Cat Cafe Maui",
+        "address": "275 W Kaahumanu Ave",
+        "city": "Kahului",
+        "region": "HI",
+        "country": "US",
+        "website": "https://catcafemaui.com/",
+        "source_url": "https://catcafemaui.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.8437734,
+          21.2914727
+        ]
+      },
+      "properties": {
+        "id": "cat-cafe-moff-ala-moana-center-honolulu",
+        "name": "Cat Café MOFF Ala Moana Center",
+        "address": "1450 Ala Moana Boulevard #1207",
+        "city": "Honolulu",
+        "region": "HI",
+        "country": "US",
+        "website": "https://moff-usa.com/locations/amc/",
+        "source_url": "https://moff-usa.com/locations/amc/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.8260782,
+          21.2783385
+        ]
+      },
+      "properties": {
+        "id": "cat-cafe-moff-international-market-place-honolulu",
+        "name": "Cat Café MOFF International Market Place",
+        "address": "2330 Kalakaua Avenue",
+        "city": "Honolulu",
+        "region": "HI",
+        "country": "US",
+        "website": "https://moff-usa.com/locations/imp/",
+        "source_url": "https://moff-usa.com/locations/imp/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.9406065,
+          21.3852999
+        ]
+      },
+      "properties": {
+        "id": "cat-cafe-moff-pearlridge-center-aiea",
+        "name": "Cat Café MOFF Pearlridge Center",
+        "address": "98-1005 Moanalua Rd",
+        "city": "Aiea",
+        "region": "HI",
+        "country": "US",
+        "website": "https://moff-usa.com/locations/prc/",
+        "source_url": "https://moff-usa.com/locations/prc/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -113.4919305,
+          53.5178491
+        ]
+      },
+      "properties": {
+        "id": "cat-cafe-on-whyte-edmonton",
+        "name": "Cat Cafe on Whyte",
+        "address": "10588 109 Street NW",
+        "city": "Edmonton",
+        "region": "AB",
+        "country": "CA",
+        "website": "https://www.catcafeonwhyte.com/",
+        "source_url": "https://www.catcafeonwhyte.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11242189370,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.7151285,
+          33.9834959
+        ]
+      },
+      "properties": {
+        "id": "cat-cafe-rescue-chino-hills",
+        "name": "Cat Cafe Rescue",
+        "address": "14850 Pipeline Ave",
+        "city": "Chino Hills",
+        "region": "CA",
+        "country": "US",
+        "website": "https://chinohillscatadoptioncenter.com/",
+        "source_url": "https://chinohillscatadoptioncenter.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0421395,
+          34.0199543
+        ]
+      },
+      "properties": {
+        "id": "cat-daddy-cat-cafe-columbia",
+        "name": "Cat Daddy Cat Café",
+        "address": "2533 Main St",
+        "city": "Columbia",
+        "region": "SC",
+        "country": "US",
+        "website": "https://catdaddyscatcafe.com/",
+        "source_url": "https://catdaddyscatcafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.7715942,
+          29.7935097
+        ]
+      },
+      "properties": {
+        "id": "cat-haven-lounge-katy",
+        "name": "Cat Haven Lounge",
+        "address": "23015 Colonial Pkwy B205",
+        "city": "Katy",
+        "region": "TX",
+        "country": "US",
+        "website": "https://www.cathavenlounge.com/",
+        "source_url": "https://www.cathavenlounge.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3944017,
+          39.0233183
+        ]
+      },
+      "properties": {
+        "id": "cat-lounge-meows-corner-sterling",
+        "name": "Cat Lounge Meows Corner",
+        "address": "21435 Epicerie Plaza",
+        "city": "Sterling",
+        "region": "VA",
+        "country": "US",
+        "website": "https://www.meowscorner.com/",
+        "source_url": "https://www.meowscorner.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11200423843,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.3000537,
+          39.8892892
+        ]
+      },
+      "properties": {
+        "id": "cat-nook-cafe-norwood",
+        "name": "Cat Nook Cafe",
+        "address": "18 W. Winona Ave",
+        "city": "Norwood",
+        "region": "PA",
+        "country": "US",
+        "website": "https://catnookcafe.com/",
+        "source_url": "https://catnookcafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0626724,
+          35.9102805
+        ]
+      },
+      "properties": {
+        "id": "cat-tales-cat-cafe-chapel-hill",
+        "name": "Cat Tales Cat Cafe",
+        "address": "431 W Franklin St Unit 210",
+        "city": "Chapel Hill",
+        "region": "NC",
+        "country": "US",
+        "website": "https://cattalescatcafe.com/",
+        "source_url": "https://cattalescatcafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.705458,
+          34.4233058
+        ]
+      },
+      "properties": {
+        "id": "cat-therapy-santa-barbara",
+        "name": "Cat Therapy",
+        "address": "1213 State St Suite L",
+        "city": "Santa Barbara",
+        "region": "CA",
+        "country": "US",
+        "website": "https://www.cattherapysb.com/",
+        "source_url": "https://www.cattherapysb.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 5895682752,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.26166,
+          37.81981
+        ]
+      },
+      "properties": {
+        "id": "cat-town-oakland",
+        "name": "Cat Town",
+        "address": "2869 Broadway",
+        "city": "Oakland",
+        "region": "CA",
+        "country": "US",
+        "website": "https://www.cattownoakland.org/",
+        "source_url": "https://www.cattownoakland.org/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.465343,
+          33.9798073
+        ]
+      },
+      "properties": {
+        "id": "catcafe-lounge-venice",
+        "name": "CatCafe Lounge",
+        "address": "114 Washington Blvd",
+        "city": "Venice",
+        "region": "CA",
+        "country": "US",
+        "website": "https://www.catcafelounge.com/",
+        "source_url": "https://www.catcafelounge.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.4931928,
+          49.8880021
+        ]
+      },
+      "properties": {
+        "id": "catelowna-cat-cafe-kelowna",
+        "name": "Catelowna Cat Cafe",
+        "address": "201-1441 Ellis Street",
+        "city": "Kelowna",
+        "region": "BC",
+        "country": "CA",
+        "website": "https://catelowna.com/",
+        "source_url": "https://catelowna.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.107325,
+          49.2800521
+        ]
+      },
+      "properties": {
+        "id": "catfe-vancouver",
+        "name": "Catfe",
+        "address": "88 West Pender Street",
+        "city": "Vancouver",
+        "region": "BC",
+        "country": "CA",
+        "website": "https://www.catfe.ca/",
+        "source_url": "https://www.catfe.ca/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 4731534371,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.1430149,
+          42.453211
+        ]
+      },
+      "properties": {
+        "id": "catfe-lounge-ferndale",
+        "name": "Catfe Lounge",
+        "address": "821 Livernois Street",
+        "city": "Ferndale",
+        "region": "MI",
+        "country": "US",
+        "website": "https://ferndalecatshelter.org/catfe-lounge/",
+        "source_url": "https://ferndalecatshelter.org/catfe-lounge/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 4962249597,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2153603,
+          40.8119659
+        ]
+      },
+      "properties": {
+        "id": "catfe-montclair-montclair",
+        "name": "Catfé Montclair",
+        "address": "356 Bloomfield Ave Suite 5",
+        "city": "Montclair",
+        "region": "NJ",
+        "country": "US",
+        "website": "https://www.catfemontclair.com/",
+        "source_url": "https://www.catfemontclair.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.4400337,
+          35.8416338
+        ]
+      },
+      "properties": {
+        "id": "catfeine-cat-cafe-murfreesboro",
+        "name": "Catfeine Cat Cafe",
+        "address": "517 Cason Lane",
+        "city": "Murfreesboro",
+        "region": "TN",
+        "country": "US",
+        "website": "https://www.catfeine.net/",
+        "source_url": "https://www.catfeine.net/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 8539234787,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2938607,
+          47.1905575
+        ]
+      },
+      "properties": {
+        "id": "catffeinated-puyallup",
+        "name": "Catffeinated",
+        "address": "212 South Meridian",
+        "city": "Puyallup",
+        "region": "WA",
+        "country": "US",
+        "website": "https://catffeinated.net/",
+        "source_url": "https://catffeinated.net/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.6959617,
+          36.2183277
+        ]
+      },
+      "properties": {
+        "id": "catio-nashville-nashville",
+        "name": "Catio Nashville",
+        "address": "2416 Music Valley Dr. Ste. 119",
+        "city": "Nashville",
+        "region": "TN",
+        "country": "US",
+        "website": "https://www.thecationashville.com/",
+        "source_url": "https://www.thecationashville.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.365759,
+          50.661119
+        ]
+      },
+      "properties": {
+        "id": "catloops-kamloops",
+        "name": "Catloops",
+        "address": "970 Laval Crescent #2",
+        "city": "Kamloops",
+        "region": "BC",
+        "country": "CA",
+        "website": "https://www.catloops.ca/",
+        "source_url": "https://www.catloops.ca/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.2975236,
+          36.8689487
+        ]
+      },
+      "properties": {
+        "id": "catnip-cat-cafe-norfolk",
+        "name": "Catnip Cat Cafe",
+        "address": "1611-B Colley Avenue",
+        "city": "Norfolk",
+        "region": "VA",
+        "country": "US",
+        "website": "https://catnipcatcafe.com/",
+        "source_url": "https://catnipcatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11200424509,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.560819,
+          35.1751082
+        ]
+      },
+      "properties": {
+        "id": "catopia-cat-cafe-albuquerque",
+        "name": "Catopia Cat Cafe",
+        "address": "8001 Wyoming Boulevard NE",
+        "city": "Albuquerque",
+        "region": "NM",
+        "country": "US",
+        "website": "https://www.catopiacatcafe.com",
+        "source_url": "https://www.catopiacatcafe.com",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 7708042076,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0896259,
+          49.2622542
+        ]
+      },
+      "properties": {
+        "id": "catoro-cafe-vancouver",
+        "name": "Catoro Cafe",
+        "address": "666 East Broadway",
+        "city": "Vancouver",
+        "region": "BC",
+        "country": "CA",
+        "website": "https://catoropets.com",
+        "source_url": "https://catoropets.com",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 160298735,
+        "osm_type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4288816,
+          40.8706823
+        ]
+      },
+      "properties": {
+        "id": "catpurrccinos-huntington",
+        "name": "Catpurrccinos",
+        "address": "322 Main Street",
+        "city": "Huntington",
+        "region": "NY",
+        "country": "US",
+        "website": "https://www.catpurrccinos.com/",
+        "source_url": "https://www.catpurrccinos.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3817479,
+          33.1986815
+        ]
+      },
+      "properties": {
+        "id": "cats-crystals-oceanside",
+        "name": "Cats & Crystals",
+        "address": "510 N. Coast Hwy. Suite B",
+        "city": "Oceanside",
+        "region": "CA",
+        "country": "US",
+        "website": "https://www.catsandcrystals.com/",
+        "source_url": "https://www.catsandcrystals.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.5107563,
+          27.9296868
+        ]
+      },
+      "properties": {
+        "id": "cats-and-caffeine-cat-lounge-tampa",
+        "name": "Cats and Caffeine Cat Lounge",
+        "address": "4033 Henderson Blvd",
+        "city": "Tampa",
+        "region": "FL",
+        "country": "US",
+        "website": "https://catscaffeine.com/",
+        "source_url": "https://catscaffeine.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4581286,
+          41.0022404
+        ]
+      },
+      "properties": {
+        "id": "cats-in-bloom-bloomsburg",
+        "name": "Cats in Bloom",
+        "address": "102 West Main Street",
+        "city": "Bloomsburg",
+        "region": "PA",
+        "country": "US",
+        "website": "https://www.catsinbloom.org/",
+        "source_url": "https://www.catsinbloom.org/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 1033656234,
+        "osm_type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.079769,
+          40.649325
+        ]
+      },
+      "properties": {
+        "id": "cats-n-at-wexford",
+        "name": "Cats N'At",
+        "address": "73 Shenot Road",
+        "city": "Wexford",
+        "region": "PA",
+        "country": "US",
+        "website": "https://www.catspgh.com/",
+        "source_url": "https://www.catspgh.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.1011981,
+          45.672703
+        ]
+      },
+      "properties": {
+        "id": "cats-show-cat-cafe-bozeman",
+        "name": "Cats Show Cat Café",
+        "address": "730 Boardwalk Avenue",
+        "city": "Bozeman",
+        "region": "MT",
+        "country": "US",
+        "website": "https://catshowcatcafe.com/",
+        "source_url": "https://catshowcatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11160932721,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0123998,
+          40.2157077
+        ]
+      },
+      "properties": {
+        "id": "catsbury-park-asbury-park",
+        "name": "Catsbury Park",
+        "address": "708 Cookman Ave",
+        "city": "Asbury Park",
+        "region": "NJ",
+        "country": "US",
+        "website": "https://catsburypark.com/",
+        "source_url": "https://catsburypark.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.5416906,
+          40.304164
+        ]
+      },
+      "properties": {
+        "id": "cattfeinated-cat-cafe-greensburg",
+        "name": "Cattfeinated Cat Cafe",
+        "address": "159 E. Otterman St.",
+        "city": "Greensburg",
+        "region": "PA",
+        "country": "US",
+        "website": "https://www.greensburgcatcafe.com/",
+        "source_url": "https://www.greensburgcatcafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4097786,
+          31.3122796
+        ]
+      },
+      "properties": {
+        "id": "cattiesburg-cat-cafe-hattiesburg",
+        "name": "Cattiesburg Cat Cafe",
+        "address": "5268 Old Highway 11",
+        "city": "Hattiesburg",
+        "region": "MS",
+        "country": "US",
+        "website": "https://cattiesburgcafe.com/",
+        "source_url": "https://cattiesburgcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11209524927,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.78929,
+          26.48714
+        ]
+      },
+      "properties": {
+        "id": "cattyshack-cafe-fort-myers",
+        "name": "Cattyshack Cafe",
+        "address": "9902 Gulf Coast Main Street D-140",
+        "city": "Fort Myers",
+        "region": "FL",
+        "country": "US",
+        "website": "https://www.cattyshackcafe.com/",
+        "source_url": "https://www.cattyshackcafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.5973597,
+          34.7157921
+        ]
+      },
+      "properties": {
+        "id": "cattyshack-inc-huntsville",
+        "name": "Cattyshack, Inc.",
+        "address": "2211 Seminole Drive Studio 1062",
+        "city": "Huntsville",
+        "region": "AL",
+        "country": "US",
+        "website": "https://cattyshackhuntsville.org/",
+        "source_url": "https://cattyshackhuntsville.org/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.1601706,
+          44.9398858
+        ]
+      },
+      "properties": {
+        "id": "catzen-coffee-saint-paul",
+        "name": "Catzen Coffee",
+        "address": "1416 Grand Avenue",
+        "city": "Saint Paul",
+        "region": "MN",
+        "country": "US",
+        "website": "https://www.catzencoffee.com/",
+        "source_url": "https://www.catzencoffee.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.8364,
+          30.1818
+        ]
+      },
+      "properties": {
+        "id": "central-purr-panama-city-beach",
+        "name": "Central Purr",
+        "address": "7113 U.S. 98",
+        "city": "Panama City Beach",
+        "region": "FL",
+        "country": "US",
+        "website": "https://www.centralpurrofpcb.com/",
+        "source_url": "https://www.centralpurrofpcb.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5375,
+          38.2179994
+        ]
+      },
+      "properties": {
+        "id": "central-purrk-cat-cafe-georgetown",
+        "name": "Central Purrk Cat Cafe",
+        "address": "401 Outlet Center Drive",
+        "city": "Georgetown",
+        "region": "KY",
+        "country": "US",
+        "website": "https://www.centralpurrkcafe.com/",
+        "source_url": "https://www.centralpurrkcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11174310591,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.2919358,
+          38.8913561
+        ]
+      },
+      "properties": {
+        "id": "champy-s-catfe-lincoln",
+        "name": "Champy’s Catfé",
+        "address": "454 F Street",
+        "city": "Lincoln",
+        "region": "CA",
+        "country": "US",
+        "website": "https://fieldhavenmarketplace.com/champys-catfe/",
+        "source_url": "https://fieldhavenmarketplace.com/champys-catfe/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.234163,
+          30.4116241
+        ]
+      },
+      "properties": {
+        "id": "coastal-cat-cafe-pensacola",
+        "name": "Coastal Cat Cafe",
+        "address": "1508 West Garden Street",
+        "city": "Pensacola",
+        "region": "FL",
+        "country": "US",
+        "website": "https://www.coastalcatpcola.com/",
+        "source_url": "https://www.coastalcatpcola.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.2106842,
+          44.0673665
+        ]
+      },
+      "properties": {
+        "id": "coffee-and-the-cats-rapid-city",
+        "name": "Coffee and the Cats",
+        "address": "315 B East St Patrick Street",
+        "city": "Rapid City",
+        "region": "SD",
+        "country": "US",
+        "website": "https://www.coffee-and-the-cats.com/",
+        "source_url": "https://www.coffee-and-the-cats.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.7092462,
+          41.5730793
+        ]
+      },
+      "properties": {
+        "id": "coffee-cats-west-des-moines",
+        "name": "Coffee Cats",
+        "address": "312 5th Street",
+        "city": "West Des Moines",
+        "region": "IA",
+        "country": "US",
+        "website": "https://www.coffeecatscafe.com/",
+        "source_url": "https://www.coffeecatscafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 329589025,
+        "osm_type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8219322,
+          38.8251884
+        ]
+      },
+      "properties": {
+        "id": "comfort-and-joy-cat-cafe-colorado-springs",
+        "name": "Comfort and Joy Cat Cafe",
+        "address": "615 S. Nevada Ave",
+        "city": "Colorado Springs",
+        "region": "CO",
+        "country": "US",
+        "website": "https://www.comfortandjoycatcafe.com/",
+        "source_url": "https://www.comfortandjoycatcafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4748537,
+          42.7576499
+        ]
+      },
+      "properties": {
+        "id": "constellation-cat-cafe-east-lansing",
+        "name": "Constellation Cat Cafe",
+        "address": "3320 E Lake Lansing Rd",
+        "city": "East Lansing",
+        "region": "MI",
+        "country": "US",
+        "website": "https://www.constellationcatcafe.com/",
+        "source_url": "https://www.constellationcatcafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3818384,
+          43.6725867
+        ]
+      },
+      "properties": {
+        "id": "cozy-cats-cafe-sanford",
+        "name": "Cozy Cats Cafe",
+        "address": "330 Saginaw Rd.",
+        "city": "Sanford",
+        "region": "MI",
+        "country": "US",
+        "website": "https://www.cozycatscafe.com/",
+        "source_url": "https://www.cozycatscafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7909514,
+          36.0658336
+        ]
+      },
+      "properties": {
+        "id": "crooked-tail-cat-cafe-greensboro",
+        "name": "Crooked Tail Cat Cafe",
+        "address": "604 South Elm Street",
+        "city": "Greensboro",
+        "region": "NC",
+        "country": "US",
+        "website": "https://www.crookedtailcatcafe.com/home-gso",
+        "source_url": "https://www.crookedtailcatcafe.com/home-gso",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 10296269312,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0615257,
+          38.905338
+        ]
+      },
+      "properties": {
+        "id": "crumbs-whiskers-dc-washington",
+        "name": "Crumbs & Whiskers DC",
+        "address": "3109 M St NW",
+        "city": "Washington",
+        "region": "DC",
+        "country": "US",
+        "website": "https://crumbsandwhiskers.com/",
+        "source_url": "https://crumbsandwhiskers.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11160753175,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.3623507,
+          34.0836622
+        ]
+      },
+      "properties": {
+        "id": "crumbs-whiskers-los-angeles-los-angeles",
+        "name": "Crumbs & Whiskers Los Angeles",
+        "address": "7924 Melrose Ave",
+        "city": "Los Angeles",
+        "region": "CA",
+        "country": "US",
+        "website": "https://crumbsandwhiskers.com/",
+        "source_url": "https://crumbsandwhiskers.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11160747598,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.4706934,
+          37.0442117
+        ]
+      },
+      "properties": {
+        "id": "cups-claws-cat-cafe-newport-news",
+        "name": "Cups & Claws Cat Cafe",
+        "address": "11006 Warwick Boulevard",
+        "city": "Newport News",
+        "region": "VA",
+        "country": "US",
+        "website": "https://www.cupsandclaws.com/",
+        "source_url": "https://www.cupsandclaws.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11200420127,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.7954013,
+          35.1988688
+        ]
+      },
+      "properties": {
+        "id": "daily-mews-cat-cafe-charlotte",
+        "name": "Daily Mews Cat Cafe",
+        "address": "3748 Monroe Road",
+        "city": "Charlotte",
+        "region": "NC",
+        "country": "US",
+        "website": "https://www.dailymewscharlotte.com/",
+        "source_url": "https://www.dailymewscharlotte.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 836519326,
+        "osm_type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.044156,
+          39.771741
+        ]
+      },
+      "properties": {
+        "id": "denver-cat-company-denver",
+        "name": "Denver Cat Company",
+        "address": "3929 Tennyson Street",
+        "city": "Denver",
+        "region": "CO",
+        "country": "US",
+        "website": "https://www.denvercatco.com/",
+        "source_url": "https://www.denvercatco.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 4372249917,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.5443001,
+          35.4746615
+        ]
+      },
+      "properties": {
+        "id": "don-t-stress-meowt-cat-cafe-oklahoma-city",
+        "name": "don't stress meowt Cat Cafe",
+        "address": "1900 Linwood Boulevard",
+        "city": "Oklahoma City",
+        "region": "OK",
+        "country": "US",
+        "website": "https://dontstressmeowt-catcafe.com/okc",
+        "source_url": "https://dontstressmeowt-catcafe.com/okc",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11209519916,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9043012,
+          36.0879549
+        ]
+      },
+      "properties": {
+        "id": "don-t-stress-meowt-cat-cafe-tulsa-tulsa",
+        "name": "don't stress meowt Cat Cafe Tulsa",
+        "address": "5203 S Sheridan Rd",
+        "city": "Tulsa",
+        "region": "OK",
+        "country": "US",
+        "website": "https://dontstressmeowt-catcafe.com/tulsa",
+        "source_url": "https://dontstressmeowt-catcafe.com/tulsa",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.39471,
+          29.79247
+        ]
+      },
+      "properties": {
+        "id": "el-gato-coffeehouse-houston",
+        "name": "El Gato Coffeehouse",
+        "address": "508 Pecore St",
+        "city": "Houston",
+        "region": "TX",
+        "country": "US",
+        "website": "https://www.elgatocoffeehouse.com/",
+        "source_url": "https://www.elgatocoffeehouse.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.944502,
+          32.2618831
+        ]
+      },
+      "properties": {
+        "id": "el-jefe-cat-lounge-tucson",
+        "name": "El Jefe Cat Lounge",
+        "address": "3025 North Campbell Avenue",
+        "city": "Tucson",
+        "region": "AZ",
+        "country": "US",
+        "website": "https://www.eljefecatlounge.com/",
+        "source_url": "https://www.eljefecatlounge.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 9654421421,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.2356955,
+          38.9650318
+        ]
+      },
+      "properties": {
+        "id": "espurresso-cat-cafe-lawrence",
+        "name": "Espurresso Cat Cafe",
+        "address": "1014 Massachusetts Street",
+        "city": "Lawrence",
+        "region": "KS",
+        "country": "US",
+        "website": "https://www.espurressocatcafe.com/",
+        "source_url": "https://www.espurressocatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11173898035,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0337197,
+          44.05641
+        ]
+      },
+      "properties": {
+        "id": "eugene-springfield-cat-lounge-springfield",
+        "name": "Eugene Springfield Cat Lounge",
+        "address": "537 W. Centennial Blvd.",
+        "city": "Springfield",
+        "region": "OR",
+        "country": "US",
+        "website": "https://www.eugenespringfieldcatlounge.com/",
+        "source_url": "https://www.eugenespringfieldcatlounge.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.618395,
+          50.4444624
+        ]
+      },
+      "properties": {
+        "id": "excalipurr-cat-cafe-regina",
+        "name": "Excalipurr Cat Cafe",
+        "address": "2156 Albert Street",
+        "city": "Regina",
+        "region": "SK",
+        "country": "CA",
+        "website": "https://excalipurr.ca/",
+        "source_url": "https://excalipurr.ca/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 6040504170,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2268907,
+          30.4413686
+        ]
+      },
+      "properties": {
+        "id": "fat-cat-cafe-tallahassee",
+        "name": "Fat Cat Cafe",
+        "address": "2901 East Park Ave Unit 2600",
+        "city": "Tallahassee",
+        "region": "FL",
+        "country": "US",
+        "website": "https://www.fatcatcafetally.com/",
+        "source_url": "https://www.fatcatcafetally.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.9912406,
+          41.2594713
+        ]
+      },
+      "properties": {
+        "id": "felius-cat-cafe-omaha",
+        "name": "Felius Cat Cafe",
+        "address": "5015 Dodge St Suite #101",
+        "city": "Omaha",
+        "region": "NE",
+        "country": "US",
+        "website": "https://felius.org/",
+        "source_url": "https://felius.org/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0831688,
+          33.574879
+        ]
+      },
+      "properties": {
+        "id": "fur-babies-cat-cafe-carrollton",
+        "name": "Fur Babies Cat Café",
+        "address": "302 South Street",
+        "city": "Carrollton",
+        "region": "GA",
+        "country": "US",
+        "website": "https://www.furbabiescatcafe.com/",
+        "source_url": "https://www.furbabiescatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11167162720,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.7675337,
+          33.5265374
+        ]
+      },
+      "properties": {
+        "id": "gatos-and-beans-birmingham",
+        "name": "Gatos and Beans",
+        "address": "4348 3rd Court South",
+        "city": "Birmingham",
+        "region": "AL",
+        "country": "US",
+        "website": "https://gatosandbeans.com/",
+        "source_url": "https://gatosandbeans.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11152860269,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1729456,
+          39.758782
+        ]
+      },
+      "properties": {
+        "id": "gem-city-catfe-dayton",
+        "name": "Gem City Catfe",
+        "address": "513 E 5th St",
+        "city": "Dayton",
+        "region": "OH",
+        "country": "US",
+        "website": "https://www.gemcitycatfe.com/",
+        "source_url": "https://www.gemcitycatfe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 721381145,
+        "osm_type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.4933322,
+          35.0724744
+        ]
+      },
+      "properties": {
+        "id": "gibson-s-cat-cafe-conway",
+        "name": "Gibson's Cat Cafe",
+        "address": "3820 Dave Ward Drive",
+        "city": "Conway",
+        "region": "AR",
+        "country": "US",
+        "website": "https://catsandcoffee.dudasites.com/",
+        "source_url": "https://catsandcoffee.dudasites.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11152751861,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.2270492,
+          39.6289206
+        ]
+      },
+      "properties": {
+        "id": "give-purrs-a-chance-cat-cafe-berkeley-springs",
+        "name": "Give Purrs A Chance - Cat Cafe",
+        "address": "51 Independence Street",
+        "city": "Berkeley Springs",
+        "region": "WV",
+        "country": "US",
+        "website": "https://givepurrsachance.org/",
+        "source_url": "https://givepurrsachance.org/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11160858638,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1412016,
+          26.1348197
+        ]
+      },
+      "properties": {
+        "id": "good-luck-cat-cafe-fort-lauderdale",
+        "name": "Good Luck Cat Cafe",
+        "address": "901 Progresso Drive #202",
+        "city": "Fort Lauderdale",
+        "region": "FL",
+        "country": "US",
+        "website": "https://ladyluckanimalrescue.com/",
+        "source_url": "https://ladyluckanimalrescue.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 9792394377,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7702587,
+          43.6044021
+        ]
+      },
+      "properties": {
+        "id": "karma-kat-cafe-mount-pleasant",
+        "name": "Karma Kat Cafe",
+        "address": "612 E. Broadway",
+        "city": "Mount Pleasant",
+        "region": "MI",
+        "country": "US",
+        "website": "https://www.karmakatcafe.com/",
+        "source_url": "https://www.karmakatcafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.42109,
+          37.75201
+        ]
+      },
+      "properties": {
+        "id": "kittea-cat-lounge-san-francisco",
+        "name": "KitTea Cat Lounge",
+        "address": "1266 Valencia St",
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "website": "https://kitteasf.org/",
+        "source_url": "https://kitteasf.org/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.9425942,
+          49.1650996
+        ]
+      },
+      "properties": {
+        "id": "kitties-and-cream-nanaimo",
+        "name": "Kitties and Cream",
+        "address": "437 Fitzwilliam Street",
+        "city": "Nanaimo",
+        "region": "BC",
+        "country": "CA",
+        "website": "https://kittiesandcream.ca/",
+        "source_url": "https://kittiesandcream.ca/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 4995884357,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3290849,
+          39.3513413
+        ]
+      },
+      "properties": {
+        "id": "kitty-brew-cat-cafe-mason",
+        "name": "Kitty Brew Cat Cafe",
+        "address": "6011 Tylersville Rd",
+        "city": "Mason",
+        "region": "OH",
+        "country": "US",
+        "website": "https://kittybrew.com/",
+        "source_url": "https://kittybrew.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 6397286836,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.0183402,
+          40.0762848
+        ]
+      },
+      "properties": {
+        "id": "kitty-bubble-cafe-bar-columbus",
+        "name": "Kitty Bubble Cafe & Bar",
+        "address": "5568 North High Street",
+        "city": "Columbus",
+        "region": "OH",
+        "country": "US",
+        "website": "https://kittybubblecafe.com/",
+        "source_url": "https://kittybubblecafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11238671404,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3946689,
+          47.7188737
+        ]
+      },
+      "properties": {
+        "id": "kitty-cantina-spokane",
+        "name": "Kitty Cantina",
+        "address": "6704 North Nevada Street",
+        "city": "Spokane",
+        "region": "WA",
+        "country": "US",
+        "website": "https://kittycantina.com/",
+        "source_url": "https://kittycantina.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11241338684,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9916417,
+          42.5330037
+        ]
+      },
+      "properties": {
+        "id": "kitty-cat-cafe-and-adoption-lounge-peabody",
+        "name": "Kitty Cat Cafe and Adoption Lounge",
+        "address": "108 Newbury Street",
+        "city": "Peabody",
+        "region": "MA",
+        "country": "US",
+        "website": "https://www.kittycatcafema.com/",
+        "source_url": "https://www.kittycatcafema.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11173905861,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1086472,
+          40.3578933
+        ]
+      },
+      "properties": {
+        "id": "kitty-co-cat-rescue-and-lounge-bridgeville",
+        "name": "Kitty Co. Cat Rescue and Lounge",
+        "address": "548 Baldwin St",
+        "city": "Bridgeville",
+        "region": "PA",
+        "country": "US",
+        "website": "https://www.axios.com/local/pittsburgh/2026/03/03/kitty-co-cat-cafe-bridgeville-opens",
+        "source_url": "https://www.axios.com/local/pittsburgh/2026/03/03/kitty-co-cat-cafe-bridgeville-opens",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.2558972,
+          36.7116472
+        ]
+      },
+      "properties": {
+        "id": "kitty-kingdom-cat-cafe-chesapeake",
+        "name": "Kitty Kingdom Cat Cafe",
+        "address": "565 Cedar Road",
+        "city": "Chesapeake",
+        "region": "VA",
+        "country": "US",
+        "website": "https://kittykingdomcatcafe.wpcomstaging.com/",
+        "source_url": "https://kittykingdomcatcafe.wpcomstaging.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11241413643,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.7643319,
+          39.4607895
+        ]
+      },
+      "properties": {
+        "id": "kitty-kisses-cat-cafe-reno",
+        "name": "Kitty Kisses Cat Cafe",
+        "address": "8555 Double R Boulevard",
+        "city": "Reno",
+        "region": "NV",
+        "country": "US",
+        "website": "https://kittykissescatcafe.com/",
+        "source_url": "https://kittykissescatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11209507970,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.5039834,
+          44.1991219
+        ]
+      },
+      "properties": {
+        "id": "kitty-korner-cafe-barre",
+        "name": "Kitty Korner Café",
+        "address": "214 North Main Street Suite 1",
+        "city": "Barre",
+        "region": "VT",
+        "country": "US",
+        "website": "https://www.kittykornercafe.com/",
+        "source_url": "https://www.kittykornercafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11160799385,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.8742331,
+          33.36279
+        ]
+      },
+      "properties": {
+        "id": "kitty-pause-kitty-cafe-mesa",
+        "name": "Kitty Pause Kitty Cafe",
+        "address": "1837 West Guadalupe Road",
+        "city": "Mesa",
+        "region": "AZ",
+        "country": "US",
+        "website": "https://kittypausecafe.com/",
+        "source_url": "https://kittypausecafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11152824394,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0126672,
+          40.4987614
+        ]
+      },
+      "properties": {
+        "id": "kitty-queen-cat-rescue-pittsburgh",
+        "name": "Kitty Queen Cat Rescue",
+        "address": "4552 McKnight Rd Suite 400",
+        "city": "Pittsburgh",
+        "region": "PA",
+        "country": "US",
+        "website": "https://kittyqueencatrescue.com/",
+        "source_url": "https://kittyqueencatrescue.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8335391,
+          40.7602523
+        ]
+      },
+      "properties": {
+        "id": "kokoro-cat-cafe-flushing",
+        "name": "Kokoro Cat Café",
+        "address": "133-36 37th Avenue",
+        "city": "Flushing",
+        "region": "NY",
+        "country": "US",
+        "website": "https://www.kokorocatcafe.com/",
+        "source_url": "https://www.kokorocatcafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9842269,
+          40.7204867
+        ]
+      },
+      "properties": {
+        "id": "koneko-new-york",
+        "name": "Koneko",
+        "address": "26 Clinton St",
+        "city": "New York",
+        "region": "NY",
+        "country": "US",
+        "website": "https://www.konekonyc.com/",
+        "source_url": "https://www.konekonyc.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 6293667225,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.5892535,
+          42.2487127
+        ]
+      },
+      "properties": {
+        "id": "kzoo-cat-cafe-and-rescue-kalamazoo",
+        "name": "Kzoo Cat Cafe and Rescue",
+        "address": "4221 S Westnedge",
+        "city": "Kalamazoo",
+        "region": "MI",
+        "country": "US",
+        "website": "https://www.kzoocatcafe.com/",
+        "source_url": "https://www.kzoocatcafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1808815,
+          39.9745068
+        ]
+      },
+      "properties": {
+        "id": "le-cat-cafe-philadelphia",
+        "name": "Le Cat Cafe",
+        "address": "2713 W. Girard Ave",
+        "city": "Philadelphia",
+        "region": "PA",
+        "country": "US",
+        "website": "https://www.lecatcafe.org/",
+        "source_url": "https://www.lecatcafe.org/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.1363632,
+          43.0486564
+        ]
+      },
+      "properties": {
+        "id": "luna-cafe-syracuse",
+        "name": "Luna Cafe",
+        "address": "1001 East Fayette Street",
+        "city": "Syracuse",
+        "region": "NY",
+        "country": "US",
+        "website": "https://www.lunacatcafe.com/",
+        "source_url": "https://www.lunacatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11237612143,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8053931,
+          35.2470573
+        ]
+      },
+      "properties": {
+        "id": "mac-tabby-cat-cafe-charlotte-charlotte",
+        "name": "Mac Tabby Cat Cafe Charlotte",
+        "address": "3204 N Davidson St",
+        "city": "Charlotte",
+        "region": "NC",
+        "country": "US",
+        "website": "https://www.mactabby.com/",
+        "source_url": "https://www.mactabby.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11077450621,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.5810993,
+          35.4096393
+        ]
+      },
+      "properties": {
+        "id": "mac-tabby-cat-cafe-concord-concord",
+        "name": "Mac Tabby Cat Cafe Concord",
+        "address": "25 Market St SW",
+        "city": "Concord",
+        "region": "NC",
+        "country": "US",
+        "website": "https://www.mactabby.com/",
+        "source_url": "https://www.mactabby.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 9552067395,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.4698862,
+          35.6670661
+        ]
+      },
+      "properties": {
+        "id": "mac-tabby-cat-cafe-salisbury-salisbury",
+        "name": "Mac Tabby Cat Cafe Salisbury",
+        "address": "103 South Main Street",
+        "city": "Salisbury",
+        "region": "NC",
+        "country": "US",
+        "website": "https://www.mactabby.com/",
+        "source_url": "https://www.mactabby.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 671924877,
+        "osm_type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6988418,
+          47.5712581
+        ]
+      },
+      "properties": {
+        "id": "mad-catter-cafe-st-john-s",
+        "name": "Mad Catter Cafe",
+        "address": "124 Duckworth Street",
+        "city": "St. John's",
+        "region": "NL",
+        "country": "CA",
+        "website": "https://www.madcattercafe.com/",
+        "source_url": "https://www.madcattercafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.6178151,
+          41.7269591
+        ]
+      },
+      "properties": {
+        "id": "marcies-angels-cat-cafe-glastonbury",
+        "name": "Marcies Angels Cat Cafe",
+        "address": "3039 Main Street",
+        "city": "Glastonbury",
+        "region": "CT",
+        "country": "US",
+        "website": "https://www.marciesangelscatcafe.com/",
+        "source_url": "https://www.marciesangelscatcafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.3207426,
+          38.6080705
+        ]
+      },
+      "properties": {
+        "id": "mauhaus-cat-cafe-maplewood",
+        "name": "Mauhaus Cat Cafe",
+        "address": "3101 Sutton Boulevard",
+        "city": "Maplewood",
+        "region": "MO",
+        "country": "US",
+        "website": "https://mauhauscafe.com/",
+        "source_url": "https://mauhauscafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 4530879889,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.4278792,
+          35.877954
+        ]
+      },
+      "properties": {
+        "id": "meow-mocha-cat-cafe-guthrie",
+        "name": "Meow & Mocha Cat Cafe",
+        "address": "315 W Oklahoma Ave",
+        "city": "Guthrie",
+        "region": "OK",
+        "country": "US",
+        "website": "https://www.meowandmochacatcafe.com/",
+        "source_url": "https://www.meowandmochacatcafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.3564805,
+          43.6785504
+        ]
+      },
+      "properties": {
+        "id": "meow-cat-lounge-westbrook",
+        "name": "Meow Cat Lounge",
+        "address": "630 Main Street",
+        "city": "Westbrook",
+        "region": "ME",
+        "country": "US",
+        "website": "https://www.meowcatlounge.com/",
+        "source_url": "https://www.meowcatlounge.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11174322852,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.6348736,
+          38.2910547
+        ]
+      },
+      "properties": {
+        "id": "meow-dyer-cat-cafe-leonardtown",
+        "name": "Meow Dyer Cat Cafe",
+        "address": "41665 Fenwick Street",
+        "city": "Leonardtown",
+        "region": "MD",
+        "country": "US",
+        "website": "https://www.meowdyercatcafe.com/",
+        "source_url": "https://www.meowdyercatcafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9902595,
+          40.7156154
+        ]
+      },
+      "properties": {
+        "id": "meow-parlour-new-york",
+        "name": "Meow Parlour",
+        "address": "46 Hester St",
+        "city": "New York",
+        "region": "NY",
+        "country": "US",
+        "website": "https://www.meowparlour.com/",
+        "source_url": "https://www.meowparlour.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 9717340504,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.9604581,
+          41.3271684
+        ]
+      },
+      "properties": {
+        "id": "mew-haven-cat-cafe-new-haven",
+        "name": "Mew Haven Cat Cafe",
+        "address": "904 Whalley Avenue",
+        "city": "New Haven",
+        "region": "CT",
+        "country": "US",
+        "website": "https://mewhavencatcafe.com/",
+        "source_url": "https://mewhavencatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 9978923423,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1282294,
+          40.3277662
+        ]
+      },
+      "properties": {
+        "id": "mewow-cat-cafe-doylestown",
+        "name": "MeWow Cat Cafe",
+        "address": "4161 E. Swamp Road",
+        "city": "Doylestown",
+        "region": "PA",
+        "country": "US",
+        "website": "https://mewow.cafe/",
+        "source_url": "https://mewow.cafe/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.049442,
+          38.804894
+        ]
+      },
+      "properties": {
+        "id": "mount-purrnon-cat-cafe-wine-bar-alexandria",
+        "name": "Mount Purrnon Cat Café + Wine Bar",
+        "address": "109 South Alfred Street",
+        "city": "Alexandria",
+        "region": "VA",
+        "country": "US",
+        "website": "https://www.mtpurrnoncatcafe.com/",
+        "source_url": "https://www.mtpurrnoncatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11241361443,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2498769,
+          43.5469673
+        ]
+      },
+      "properties": {
+        "id": "my-kitty-cafe-guelph",
+        "name": "My Kitty Cafe",
+        "address": "117 Wyndham Street North",
+        "city": "Guelph",
+        "region": "ON",
+        "country": "CA",
+        "website": "https://mykittycafe.com/",
+        "source_url": "https://mykittycafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 7235391665,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.933176,
+          37.3446009
+        ]
+      },
+      "properties": {
+        "id": "nabi-cat-cafe-santa-clara",
+        "name": "Nabi Cat Cafe",
+        "address": "2255 The Alameda",
+        "city": "Santa Clara",
+        "region": "CA",
+        "country": "US",
+        "website": "https://www.nabicatcafe.com/",
+        "source_url": "https://www.nabicatcafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.326595,
+          35.011234
+        ]
+      },
+      "properties": {
+        "id": "naughty-cat-cafe-chattanooga",
+        "name": "Naughty Cat Cafe",
+        "address": "3742 Tennessee Avenue",
+        "city": "Chattanooga",
+        "region": "TN",
+        "country": "US",
+        "website": "https://www.naughtycatcafe.com/",
+        "source_url": "https://www.naughtycatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11241339122,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4809086,
+          48.7483924
+        ]
+      },
+      "properties": {
+        "id": "neko-cat-cafe-bellingham-bellingham",
+        "name": "NEKO Cat Cafe Bellingham",
+        "address": "1130 Cornwall Ave",
+        "city": "Bellingham",
+        "region": "WA",
+        "country": "US",
+        "website": "https://www.nekocatcafe.com/",
+        "source_url": "https://www.nekocatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 8220479917,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.324833,
+          47.6151081
+        ]
+      },
+      "properties": {
+        "id": "neko-cat-cafe-seattle-seattle",
+        "name": "NEKO Cat Cafe Seattle",
+        "address": "519 E Pine St",
+        "city": "Seattle",
+        "region": "WA",
+        "country": "US",
+        "website": "https://www.nekocatcafe.com/",
+        "source_url": "https://www.nekocatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 2158768924,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.1396508,
+          39.7496789
+        ]
+      },
+      "properties": {
+        "id": "nine-lives-cat-cafe-indianapolis",
+        "name": "Nine Lives Cat Cafe",
+        "address": "1315 Shelby Street",
+        "city": "Indianapolis",
+        "region": "IN",
+        "country": "US",
+        "website": "https://www.ninelivescatcafe.com/",
+        "source_url": "https://www.ninelivescatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 8339830410,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0753498,
+          40.396682
+        ]
+      },
+      "properties": {
+        "id": "noco-cat-cafe-loveland",
+        "name": "NoCo Cat Cafe",
+        "address": "121 East 5th Street",
+        "city": "Loveland",
+        "region": "CO",
+        "country": "US",
+        "website": "https://nococatcafe.com/",
+        "source_url": "https://nococatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 13433682623,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.6778594,
+          28.3543551
+        ]
+      },
+      "properties": {
+        "id": "orlando-cat-cafe-clermont",
+        "name": "Orlando Cat Cafe",
+        "address": "532 Cagan Park Ave.",
+        "city": "Clermont",
+        "region": "FL",
+        "country": "US",
+        "website": "https://www.orlandocatcafe.com/",
+        "source_url": "https://www.orlandocatcafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.3154063,
+          38.8247598
+        ]
+      },
+      "properties": {
+        "id": "patriot-pawsabilities-fairfax",
+        "name": "Patriot Pawsabilities",
+        "address": "10687 Braddock Road",
+        "city": "Fairfax",
+        "region": "VA",
+        "country": "US",
+        "website": "https://www.patriotpawsabilities.com/",
+        "source_url": "https://www.patriotpawsabilities.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 8603118309,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7287939,
+          32.4708805
+        ]
+      },
+      "properties": {
+        "id": "paws-awhile-cat-cafe-perry",
+        "name": "Paws Awhile Cat Cafe",
+        "address": "1200 Macon Rd",
+        "city": "Perry",
+        "region": "GA",
+        "country": "US",
+        "website": "https://www.pawsawhilecatcafe.com/",
+        "source_url": "https://www.pawsawhilecatcafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8483062,
+          47.0406123
+        ]
+      },
+      "properties": {
+        "id": "pawsific-northwest-cafe-olympia",
+        "name": "Pawsific Northwest Cafe",
+        "address": "3415 Pacific Avenue SE",
+        "city": "Olympia",
+        "region": "WA",
+        "country": "US",
+        "website": "https://www.pawsnwcafe.com/",
+        "source_url": "https://www.pawsnwcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 13239399673,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1177889,
+          41.800211
+        ]
+      },
+      "properties": {
+        "id": "perk-and-paws-cat-cafe-torrington",
+        "name": "Perk and Paws Cat Cafe",
+        "address": "100 Franklin Street",
+        "city": "Torrington",
+        "region": "CT",
+        "country": "US",
+        "website": "https://perkandpawscatcafe.com/",
+        "source_url": "https://perkandpawscatcafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.0715485,
+          33.4573988
+        ]
+      },
+      "properties": {
+        "id": "phx-cat-cafe-phoenix",
+        "name": "PHX Cat Cafe",
+        "address": "147 East Garfield Street",
+        "city": "Phoenix",
+        "region": "AZ",
+        "country": "US",
+        "website": "https://phxcatcafe.org/",
+        "source_url": "https://phxcatcafe.org/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 147222739,
+        "osm_type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.332833,
+          44.0502145
+        ]
+      },
+      "properties": {
+        "id": "playful-paws-cat-cafe-bend",
+        "name": "Playful Paws Cat Café",
+        "address": "1465 Southwest Knoll Avenue",
+        "city": "Bend",
+        "region": "OR",
+        "country": "US",
+        "website": "https://www.playfulpawscatcafe.com/",
+        "source_url": "https://www.playfulpawscatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11174288160,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.93316,
+          32.78645
+        ]
+      },
+      "properties": {
+        "id": "pounce-cat-cafe-charleston-charleston",
+        "name": "Pounce Cat Cafe Charleston",
+        "address": "283 Meeting St",
+        "city": "Charleston",
+        "region": "SC",
+        "country": "US",
+        "website": "https://www.pouncecatcafe.com/",
+        "source_url": "https://www.pouncecatcafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.096408,
+          32.0803194
+        ]
+      },
+      "properties": {
+        "id": "pounce-cat-cafe-savannah-savannah",
+        "name": "Pounce Cat Cafe Savannah",
+        "address": "404 W Broughton St",
+        "city": "Savannah",
+        "region": "GA",
+        "country": "US",
+        "website": "https://www.pouncecatcafe.com/",
+        "source_url": "https://www.pouncecatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11167182136,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2849222,
+          33.3677085
+        ]
+      },
+      "properties": {
+        "id": "purr-pour-cat-cafe-georgetown",
+        "name": "Purr & Pour Cat Café",
+        "address": "908 Front Street",
+        "city": "Georgetown",
+        "region": "SC",
+        "country": "US",
+        "website": "https://www.purrandpour.com/",
+        "source_url": "https://www.purrandpour.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11200399371,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6485891,
+          35.7630802
+        ]
+      },
+      "properties": {
+        "id": "purr-cup-cafe-raleigh",
+        "name": "Purr Cup Cafe",
+        "address": "210 Prospect Avenue",
+        "city": "Raleigh",
+        "region": "NC",
+        "country": "US",
+        "website": "https://purrcupcafe.com/",
+        "source_url": "https://purrcupcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 47759489,
+        "osm_type": "way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.7746824,
+          30.2478149
+        ]
+      },
+      "properties": {
+        "id": "purr-fecto-cat-lounge-austin",
+        "name": "Purr-Fecto Cat Lounge",
+        "address": "2300 South Lamar Boulevard",
+        "city": "Austin",
+        "region": "TX",
+        "country": "US",
+        "website": "https://purrfectocatlounge.com/",
+        "source_url": "https://purrfectocatlounge.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 10865943772,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.29454,
+          43.81365
+        ]
+      },
+      "properties": {
+        "id": "purrfect-cafe-scarborough",
+        "name": "Purrfect Café",
+        "address": "2181 McNicoll Avenue",
+        "city": "Scarborough",
+        "region": "ON",
+        "country": "CA",
+        "website": "https://www.purrfectcafe.ca/",
+        "source_url": "https://www.purrfectcafe.ca/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.51209,
+          39.08416
+        ]
+      },
+      "properties": {
+        "id": "purrfect-day-cat-cafe-covington-covington",
+        "name": "Purrfect Day Cat Cafe Covington",
+        "address": "25 W 8th St",
+        "city": "Covington",
+        "region": "KY",
+        "country": "US",
+        "website": "https://purrfectdaycafe.com/",
+        "source_url": "https://purrfectdaycafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.70223,
+          38.22483
+        ]
+      },
+      "properties": {
+        "id": "purrfect-day-cat-cafe-louisville-louisville",
+        "name": "Purrfect Day Cat Cafe Louisville",
+        "address": "1741 Bardstown Rd",
+        "city": "Louisville",
+        "region": "KY",
+        "country": "US",
+        "website": "https://purrfectdaycafe.com/",
+        "source_url": "https://purrfectdaycafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.0852559,
+          42.1272012
+        ]
+      },
+      "properties": {
+        "id": "purrista-cat-cafe-erie",
+        "name": "Purrista Cat Café",
+        "address": "30 West 8th Street",
+        "city": "Erie",
+        "region": "PA",
+        "country": "US",
+        "website": "https://www.purristacatcafe.com/",
+        "source_url": "https://www.purristacatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11241493595,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.9873838,
+          34.2259761
+        ]
+      },
+      "properties": {
+        "id": "purrmaid-cafe-and-adoption-center-camarillo",
+        "name": "Purrmaid Cafe and Adoption Center",
+        "address": "5800 Santa Rosa Road",
+        "city": "Camarillo",
+        "region": "CA",
+        "country": "US",
+        "website": "https://www.purrmaidcatcafe.com/",
+        "source_url": "https://www.purrmaidcatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11152771615,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2767317,
+          40.6110615
+        ]
+      },
+      "properties": {
+        "id": "rahway-kitty-hall-rahway",
+        "name": "Rahway Kitty Hall",
+        "address": "209 West Main Street",
+        "city": "Rahway",
+        "region": "NJ",
+        "country": "US",
+        "website": "https://rahwaykittyhall.com/",
+        "source_url": "https://rahwaykittyhall.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11209543552,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.086123,
+          51.0542436
+        ]
+      },
+      "properties": {
+        "id": "regal-cat-cafe-calgary",
+        "name": "Regal Cat Cafe",
+        "address": "303 10 St NW",
+        "city": "Calgary",
+        "region": "AB",
+        "country": "CA",
+        "website": "https://www.regalcatcafe.com/",
+        "source_url": "https://www.regalcatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 9270916233,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8846538,
+          40.4331284
+        ]
+      },
+      "properties": {
+        "id": "rescue-and-relax-pittsburgh",
+        "name": "Rescue and Relax",
+        "address": "104-106 E Swissvale Ave",
+        "city": "Pittsburgh",
+        "region": "PA",
+        "country": "US",
+        "website": "https://www.rescueandrelax.com/",
+        "source_url": "https://www.rescueandrelax.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.2305221,
+          36.2353168
+        ]
+      },
+      "properties": {
+        "id": "rescued-treasures-cat-cafe-las-vegas",
+        "name": "Rescued Treasures Cat Café",
+        "address": "4155 North Rancho Drive",
+        "city": "Las Vegas",
+        "region": "NV",
+        "country": "US",
+        "website": "https://www.palnv.org/",
+        "source_url": "https://www.palnv.org/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11222981017,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8003088,
+          35.5710656
+        ]
+      },
+      "properties": {
+        "id": "right-meow-cat-cafe-fuquay-varina",
+        "name": "Right Meow Cat Cafe",
+        "address": "913 South Main Street",
+        "city": "Fuquay Varina",
+        "region": "NC",
+        "country": "US",
+        "website": "https://www.rightmeowcatcafe.com/",
+        "source_url": "https://www.rightmeowcatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11241332539,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6123383,
+          40.7275074
+        ]
+      },
+      "properties": {
+        "id": "river-kitty-cafe-peoria",
+        "name": "River Kitty Cafe",
+        "address": "3226 N University",
+        "city": "Peoria",
+        "region": "IL",
+        "country": "US",
+        "website": "https://www.riverkittycafe.com/",
+        "source_url": "https://www.riverkittycafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.5729683,
+          37.9706875
+        ]
+      },
+      "properties": {
+        "id": "river-kitty-cat-cafe-evansville",
+        "name": "River Kitty Cat Café",
+        "address": "226 Main Street",
+        "city": "Evansville",
+        "region": "IN",
+        "country": "US",
+        "website": "https://www.riverkittycatcafe.org/",
+        "source_url": "https://www.riverkittycatcafe.org/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.535987,
+          41.6537803
+        ]
+      },
+      "properties": {
+        "id": "rubycats-toledo",
+        "name": "RubyCats",
+        "address": "618 Adams St.",
+        "city": "Toledo",
+        "region": "OH",
+        "country": "US",
+        "website": "https://www.rubycats.org/",
+        "source_url": "https://www.rubycats.org/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.7023853,
+          30.1797798
+        ]
+      },
+      "properties": {
+        "id": "salty-cat-cafe-panama-city",
+        "name": "Salty Cat Cafe",
+        "address": "1732 Bayview Avenue",
+        "city": "Panama City",
+        "region": "FL",
+        "country": "US",
+        "website": "https://www.saltycatsrescue.org/",
+        "source_url": "https://www.saltycatsrescue.org/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.9618861,
+          35.6743695
+        ]
+      },
+      "properties": {
+        "id": "santa-fe-cat-cafe-santa-fe",
+        "name": "Santa Fe Cat Cafe",
+        "address": "1221 Flagman Way #B5",
+        "city": "Santa Fe",
+        "region": "NM",
+        "country": "US",
+        "website": "https://www.santafecatcafe.com/",
+        "source_url": "https://www.santafecatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 12077566454,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8841228,
+          40.9648908
+        ]
+      },
+      "properties": {
+        "id": "scratching-post-cat-cafe-lewisburg",
+        "name": "Scratching Post Cat Cafe",
+        "address": "230 Market Street Suite 1",
+        "city": "Lewisburg",
+        "region": "PA",
+        "country": "US",
+        "website": "https://www.cherishedcats.org/catcafe",
+        "source_url": "https://www.cherishedcats.org/catcafe",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9234216,
+          35.9819071
+        ]
+      },
+      "properties": {
+        "id": "scruffy-s-cafe-knoxville",
+        "name": "Scruffy's Cafe",
+        "address": "1015 North Broadway",
+        "city": "Knoxville",
+        "region": "TN",
+        "country": "US",
+        "website": "https://www.scruffyscafeknox.com/",
+        "source_url": "https://www.scruffyscafeknox.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11241338665,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.342911,
+          47.661252
+        ]
+      },
+      "properties": {
+        "id": "seattle-meowtropolitan-seattle",
+        "name": "Seattle Meowtropolitan",
+        "address": "1225 N 45th St",
+        "city": "Seattle",
+        "region": "WA",
+        "country": "US",
+        "website": "https://www.seameow.com/",
+        "source_url": "https://www.seameow.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 2143311013,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.753987,
+          29.603275
+        ]
+      },
+      "properties": {
+        "id": "second-chance-cat-cafe-houma",
+        "name": "Second Chance Cat Cafe",
+        "address": "411 Corporate Drive Suite H",
+        "city": "Houma",
+        "region": "LA",
+        "country": "US",
+        "website": "http://www.secondchancecatcafe.com/",
+        "source_url": "http://www.secondchancecatcafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.7920868,
+          38.8860823
+        ]
+      },
+      "properties": {
+        "id": "second-cup-cat-cafe-olathe",
+        "name": "Second Cup Cat Cafe",
+        "address": "417 North Rawhide Drive",
+        "city": "Olathe",
+        "region": "KS",
+        "country": "US",
+        "website": "https://secondcupcatcafe.com/",
+        "source_url": "https://secondcupcatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11173901073,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.7145528,
+          38.9940263
+        ]
+      },
+      "properties": {
+        "id": "second-cup-cat-cafe-shawnee-shawnee",
+        "name": "Second Cup Cat Cafe Shawnee",
+        "address": "7426 Nieman Rd",
+        "city": "Shawnee",
+        "region": "KS",
+        "country": "US",
+        "website": "https://secondcupcatcafe.com/",
+        "source_url": "https://secondcupcatcafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0862495,
+          40.734081
+        ]
+      },
+      "properties": {
+        "id": "shabby-tabby-sayville",
+        "name": "Shabby Tabby",
+        "address": "197 West Main Street",
+        "city": "Sayville",
+        "region": "NY",
+        "country": "US",
+        "website": "https://www.theshabbytabbyli.com/",
+        "source_url": "https://www.theshabbytabbyli.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 9345210446,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.9011712,
+          43.0528725
+        ]
+      },
+      "properties": {
+        "id": "sip-purr-cat-cafe-milwaukee",
+        "name": "Sip & Purr Cat Café",
+        "address": "833 East Brady Street",
+        "city": "Milwaukee",
+        "region": "WI",
+        "country": "US",
+        "website": "https://www.sipandpurr.com/",
+        "source_url": "https://www.sipandpurr.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 12713272869,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.0241629,
+          39.9282226
+        ]
+      },
+      "properties": {
+        "id": "smitten-kitten-cat-cafe-fishers",
+        "name": "Smitten Kitten Cat Cafe",
+        "address": "7852 East 96th Street",
+        "city": "Fishers",
+        "region": "IN",
+        "country": "US",
+        "website": "https://www.smittenkittencatcafe.com/",
+        "source_url": "https://www.smittenkittencatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11167174237,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.4861116,
+          36.0552923
+        ]
+      },
+      "properties": {
+        "id": "something-pawsitive-paragould",
+        "name": "Something Pawsitive",
+        "address": "223 S Pruett St",
+        "city": "Paragould",
+        "region": "AR",
+        "country": "US",
+        "website": "https://www.somethingpawsitive.com/",
+        "source_url": "https://www.somethingpawsitive.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.5828623,
+          44.5223501
+        ]
+      },
+      "properties": {
+        "id": "starry-night-cat-cafe-stevens-point",
+        "name": "Starry Night Cat Café",
+        "address": "1408 Strongs Avenue",
+        "city": "Stevens Point",
+        "region": "WI",
+        "country": "US",
+        "website": "https://www.starrynightcatcafe.com/",
+        "source_url": "https://www.starrynightcatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 12039007195,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6502088,
+          41.3770669
+        ]
+      },
+      "properties": {
+        "id": "tabby-fidos-bowling-green",
+        "name": "Tabby & Fidos",
+        "address": "300 North Main Street",
+        "city": "Bowling Green",
+        "region": "OH",
+        "country": "US",
+        "website": "https://tabbyandfidos.com/",
+        "source_url": "https://tabbyandfidos.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11238675432,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.7566066,
+          38.5598128
+        ]
+      },
+      "properties": {
+        "id": "tabby-tea-cat-lounge-davis",
+        "name": "Tabby Tea Cat Lounge",
+        "address": "606 W. Covell Blvd",
+        "city": "Davis",
+        "region": "CA",
+        "country": "US",
+        "website": "https://cattalesdavis.com/cat-lounge-adoptions/",
+        "source_url": "https://cattalesdavis.com/cat-lounge-adoptions/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.1135439,
+          34.1690545
+        ]
+      },
+      "properties": {
+        "id": "tail-town-cat-cafe-pasadena",
+        "name": "Tail Town Cat Cafe",
+        "address": "1780 E Washington Blvd",
+        "city": "Pasadena",
+        "region": "CA",
+        "country": "US",
+        "website": "https://www.tailtowncats.com/",
+        "source_url": "https://www.tailtowncats.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2889509,
+          30.4694675
+        ]
+      },
+      "properties": {
+        "id": "tally-cat-cafe-tallahassee",
+        "name": "Tally Cat Cafe",
+        "address": "2218 North Monroe Street",
+        "city": "Tallahassee",
+        "region": "FL",
+        "country": "US",
+        "website": "https://www.tallycatcafe.com/",
+        "source_url": "https://www.tallycatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 3397073798,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -149.4511327,
+          61.5827687
+        ]
+      },
+      "properties": {
+        "id": "the-alaska-cat-cafe-wasilla",
+        "name": "The Alaska Cat Cafe",
+        "address": "340 N. Lucille St.",
+        "city": "Wasilla",
+        "region": "AK",
+        "country": "US",
+        "website": "https://thealaskacatcafe.com/",
+        "source_url": "https://thealaskacatcafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.38039,
+          45.01933
+        ]
+      },
+      "properties": {
+        "id": "the-cafe-meow-new-hope-new-hope",
+        "name": "The Cafe Meow New Hope",
+        "address": "3524 Winnetka Ave N",
+        "city": "New Hope",
+        "region": "MN",
+        "country": "US",
+        "website": "https://thecafemeow.com/",
+        "source_url": "https://thecafemeow.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.148665,
+          45.0258259
+        ]
+      },
+      "properties": {
+        "id": "the-cafe-meow-roseville-roseville",
+        "name": "The Cafe Meow Roseville",
+        "address": "1718A Lexington Ave N",
+        "city": "Roseville",
+        "region": "MN",
+        "country": "US",
+        "website": "https://thecafemeow.com/",
+        "source_url": "https://thecafemeow.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.2248249,
+          32.8236086
+        ]
+      },
+      "properties": {
+        "id": "the-casual-cat-cafe-richland-hills",
+        "name": "The Casual Cat Cafe",
+        "address": "7264 Glenview Dr",
+        "city": "Richland Hills",
+        "region": "TX",
+        "country": "US",
+        "website": "https://www.thecasualcatcafe.com/",
+        "source_url": "https://www.thecasualcatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11237598398,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1615788,
+          32.7106008
+        ]
+      },
+      "properties": {
+        "id": "the-cat-cafe-san-diego",
+        "name": "The Cat Cafe",
+        "address": "302 Island Avenue",
+        "city": "San Diego",
+        "region": "CA",
+        "country": "US",
+        "website": "https://www.catcafesd.com/",
+        "source_url": "https://www.catcafesd.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 9215079112,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.072558,
+          41.9839013
+        ]
+      },
+      "properties": {
+        "id": "the-cat-house-lounge-boutique-roselle",
+        "name": "The Cat House Lounge & Boutique",
+        "address": "344 Irving Park Rd",
+        "city": "Roselle",
+        "region": "IL",
+        "country": "US",
+        "website": "https://www.thecathouselounge.com/",
+        "source_url": "https://www.thecathouselounge.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2456964,
+          41.6781759
+        ]
+      },
+      "properties": {
+        "id": "the-cat-lady-cafe-south-bend",
+        "name": "The Cat Lady Cafe",
+        "address": "401 East Colfax Avenue",
+        "city": "South Bend",
+        "region": "IN",
+        "country": "US",
+        "website": "https://www.catladycafesouthbend.com/",
+        "source_url": "https://www.catladycafesouthbend.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11167208968,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.2574419,
+          43.1861552
+        ]
+      },
+      "properties": {
+        "id": "the-cat-s-brew-sun-prairie",
+        "name": "The Cat's Brew",
+        "address": "2414 Montana Avenue",
+        "city": "Sun Prairie",
+        "region": "WI",
+        "country": "US",
+        "website": "https://www.thecatsbrew.com/",
+        "source_url": "https://www.thecatsbrew.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.66034,
+          41.93984
+        ]
+      },
+      "properties": {
+        "id": "the-catcade-chicago",
+        "name": "The Catcade",
+        "address": "1235 W Belmont Ave",
+        "city": "Chicago",
+        "region": "IL",
+        "country": "US",
+        "website": "https://www.thecatcade.org/",
+        "source_url": "https://www.thecatcade.org/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0838253,
+          33.922832
+        ]
+      },
+      "properties": {
+        "id": "the-catfe-lawrenceville",
+        "name": "The Catfe",
+        "address": "426 Bethesda School Road",
+        "city": "Lawrenceville",
+        "region": "GA",
+        "country": "US",
+        "website": "https://thecatfeco.com/",
+        "source_url": "https://thecatfeco.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11167161249,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7240388,
+          43.5445319
+        ]
+      },
+      "properties": {
+        "id": "the-catitude-cafe-sioux-falls",
+        "name": "The Catitude Cafe",
+        "address": "225 East 11th Street Suite #100",
+        "city": "Sioux Falls",
+        "region": "SD",
+        "country": "US",
+        "website": "https://www.thecattitudecatcafe.com/",
+        "source_url": "https://www.thecattitudecatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11160873748,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.6483353,
+          39.798117
+        ]
+      },
+      "properties": {
+        "id": "the-cats-pyjamas-springfield",
+        "name": "The Cats' Pyjamas",
+        "address": "524 East Capitol Avenue",
+        "city": "Springfield",
+        "region": "IL",
+        "country": "US",
+        "website": "https://www.spicatpjs.com/",
+        "source_url": "https://www.spicatpjs.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11694480929,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.9711665,
+          33.002216
+        ]
+      },
+      "properties": {
+        "id": "the-charming-cat-corner-lewisville",
+        "name": "The Charming Cat Corner",
+        "address": "2401 South Stemmons Freeway",
+        "city": "Lewisville",
+        "region": "TX",
+        "country": "US",
+        "website": "https://thecharmingcatcafe.com/",
+        "source_url": "https://thecharmingcatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11209551771,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.0273775,
+          39.9874385
+        ]
+      },
+      "properties": {
+        "id": "the-chatty-cat-cafe-zanesville",
+        "name": "The Chatty Cat Cafe",
+        "address": "3575 Maple Avenue",
+        "city": "Zanesville",
+        "region": "OH",
+        "country": "US",
+        "website": "https://www.thechattycatcafe.com/",
+        "source_url": "https://www.thechattycatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 10951388972,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2196747,
+          38.592458
+        ]
+      },
+      "properties": {
+        "id": "the-cheshire-grin-cat-cafe-saint-louis",
+        "name": "The Cheshire Grin Cat Cafe",
+        "address": "1926 Cherokee Street",
+        "city": "Saint Louis",
+        "region": "MO",
+        "country": "US",
+        "website": "https://thecheshiregrincatcafe.com/",
+        "source_url": "https://thecheshiregrincatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 12688633757,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3803744,
+          28.546843
+        ]
+      },
+      "properties": {
+        "id": "the-kitty-beautiful-orlando",
+        "name": "The Kitty Beautiful",
+        "address": "360 State Lane",
+        "city": "Orlando",
+        "region": "FL",
+        "country": "US",
+        "website": "https://thekittybeautiful.com/",
+        "source_url": "https://thekittybeautiful.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.2393788,
+          40.1494016
+        ]
+      },
+      "properties": {
+        "id": "the-kitty-crib-champaign",
+        "name": "The Kitty Crib",
+        "address": "3113 N Market Street",
+        "city": "Champaign",
+        "region": "IL",
+        "country": "US",
+        "website": "https://mooresrescueranch.org/the-kitty-crib/",
+        "source_url": "https://mooresrescueranch.org/the-kitty-crib/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.601115,
+          43.1570115
+        ]
+      },
+      "properties": {
+        "id": "the-pawsitive-cafe-rochester",
+        "name": "The Pawsitive Cafe",
+        "address": "120 East Avenue",
+        "city": "Rochester",
+        "region": "NY",
+        "country": "US",
+        "website": "https://www.pawsitivecatcafe.com/",
+        "source_url": "https://www.pawsitivecatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11237608565,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9816189,
+          42.7906102
+        ]
+      },
+      "properties": {
+        "id": "the-pretty-paw-lounge-rotterdam",
+        "name": "The Pretty Paw Lounge",
+        "address": "370 Mariaville Road",
+        "city": "Rotterdam",
+        "region": "NY",
+        "country": "US",
+        "website": "https://www.prettypawlounge.com/",
+        "source_url": "https://www.prettypawlounge.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11235230835,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.6131894,
+          45.9822036
+        ]
+      },
+      "properties": {
+        "id": "the-purrfect-cup-cat-cafe-fredericton",
+        "name": "The Purrfect Cup Cat Café",
+        "address": "580 Two Nations Crossing",
+        "city": "Fredericton",
+        "region": "NB",
+        "country": "CA",
+        "website": "https://purrfectcup.ca/",
+        "source_url": "https://purrfectcup.ca/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 4934541558,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.8592719,
+          41.6756037
+        ]
+      },
+      "properties": {
+        "id": "the-purrfect-lounge-plainville",
+        "name": "The Purrfect Lounge",
+        "address": "17 Farmington Ave",
+        "city": "Plainville",
+        "region": "CT",
+        "country": "US",
+        "website": "https://www.ctinsider.com/living/article/purrfect-lounge-cat-plainville-ct-simon-foundation-20189314.php",
+        "source_url": "https://www.ctinsider.com/living/article/purrfect-lounge-cat-plainville-ct-simon-foundation-20189314.php",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.24297,
+          35.496179
+        ]
+      },
+      "properties": {
+        "id": "the-purrfect-pour-cat-cafe-lincolnton",
+        "name": "The Purrfect Pour Cat Cafe",
+        "address": "145 Vandiver Drive",
+        "city": "Lincolnton",
+        "region": "NC",
+        "country": "US",
+        "website": "https://www.thepurrfectpourcatcafe.com/",
+        "source_url": "https://www.thepurrfectpourcatcafe.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.3382751,
+          41.47301
+        ]
+      },
+      "properties": {
+        "id": "the-region-cat-cafe-merrillville",
+        "name": "The Region Cat Café",
+        "address": "281 West 80th Place",
+        "city": "Merrillville",
+        "region": "IN",
+        "country": "US",
+        "website": "https://theregioncatcafe.com/",
+        "source_url": "https://theregioncatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11167177504,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.2380776,
+          40.1164732
+        ]
+      },
+      "properties": {
+        "id": "the-scratching-post-champaign",
+        "name": "The Scratching Post",
+        "address": "114 East University Avenue",
+        "city": "Champaign",
+        "region": "IL",
+        "country": "US",
+        "website": "https://scratchingpostcu.com/",
+        "source_url": "https://scratchingpostcu.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 13961650182,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9361372,
+          43.0796536
+        ]
+      },
+      "properties": {
+        "id": "the-tipsy-tabby-newmarket",
+        "name": "The Tipsy Tabby",
+        "address": "90 Main Street",
+        "city": "Newmarket",
+        "region": "NH",
+        "country": "US",
+        "website": "https://www.thetipsytabby.com/",
+        "source_url": "https://www.thetipsytabby.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11167342616,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.942573,
+          37.2611393
+        ]
+      },
+      "properties": {
+        "id": "the-toebean-cat-cafe-roanoke",
+        "name": "The Toebean Cat Café",
+        "address": "20 Walnut Avenue Southwest",
+        "city": "Roanoke",
+        "region": "VA",
+        "country": "US",
+        "website": "https://www.thetoebeancatcafe.net/",
+        "source_url": "https://www.thetoebeancatcafe.net/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 12422921088,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.2497451,
+          43.2343701
+        ]
+      },
+      "properties": {
+        "id": "the-whisker-room-muskegon",
+        "name": "The Whisker Room",
+        "address": "926 2nd St",
+        "city": "Muskegon",
+        "region": "MI",
+        "country": "US",
+        "website": "https://thewhiskerroom.org/",
+        "source_url": "https://thewhiskerroom.org/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2047388,
+          47.6758027
+        ]
+      },
+      "properties": {
+        "id": "the-whole-cat-and-kaboodle-kirkland",
+        "name": "The Whole Cat and Kaboodle",
+        "address": "202 Kirkland Avenue",
+        "city": "Kirkland",
+        "region": "WA",
+        "country": "US",
+        "website": "https://www.wholecatandkaboodle.com/",
+        "source_url": "https://www.wholecatandkaboodle.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 1971057581,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.882281,
+          40.7495053
+        ]
+      },
+      "properties": {
+        "id": "tinker-s-cat-cafe-salt-lake-city",
+        "name": "Tinker's Cat Cafe",
+        "address": "302 East 900 South",
+        "city": "Salt Lake City",
+        "region": "UT",
+        "country": "US",
+        "website": "https://www.tinkerscatcafe.com/",
+        "source_url": "https://www.tinkerscatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 4679399153,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8339731,
+          42.2869448
+        ]
+      },
+      "properties": {
+        "id": "tiny-lions-lounge-adoption-center-ann-arbor",
+        "name": "Tiny Lions Lounge & Adoption Center",
+        "address": "5245 Jackson Rd",
+        "city": "Ann Arbor",
+        "region": "MI",
+        "country": "US",
+        "website": "https://www.tinylions.org/",
+        "source_url": "https://www.tinylions.org/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.2838622,
+          43.949429
+        ]
+      },
+      "properties": {
+        "id": "toe-beans-cat-cafe-port-hope",
+        "name": "Toe Beans Cat Cafe",
+        "address": "119 Peter Street",
+        "city": "Port Hope",
+        "region": "ON",
+        "country": "CA",
+        "website": "https://toe-beans-cat-cafe.square.site/",
+        "source_url": "https://toe-beans-cat-cafe.square.site/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11242125008,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6900082,
+          42.0131114
+        ]
+      },
+      "properties": {
+        "id": "tree-house-humane-society-cat-cafe-chicago",
+        "name": "Tree House Humane Society Cat Cafe",
+        "address": "7225 North Western Avenue",
+        "city": "Chicago",
+        "region": "IL",
+        "country": "US",
+        "website": "https://treehouseanimals.org/cafe/",
+        "source_url": "https://treehouseanimals.org/cafe/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11167197705,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.7148726,
+          39.8465773
+        ]
+      },
+      "properties": {
+        "id": "treetops-kitty-cafe-kennett-square",
+        "name": "Treetops Kitty Cafe",
+        "address": "305 West State Street",
+        "city": "Kennett Square",
+        "region": "PA",
+        "country": "US",
+        "website": "https://treetopskittycafe.com/",
+        "source_url": "https://treetopskittycafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 11542539497,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4471613,
+          43.6771775
+        ]
+      },
+      "properties": {
+        "id": "vintage-cat-cafe-toronto-toronto",
+        "name": "Vintage Cat Cafe Toronto",
+        "address": "1274 St. Clair Avenue West",
+        "city": "Toronto",
+        "region": "ON",
+        "country": "CA",
+        "website": "https://www.vintagecatcafe.com/",
+        "source_url": "https://www.vintagecatcafe.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 12645744525,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.054808,
+          40.496821
+        ]
+      },
+      "properties": {
+        "id": "whisker-wonderland-cat-lounge-bellevue",
+        "name": "Whisker Wonderland Cat Lounge",
+        "address": "51 North Balph Avenue",
+        "city": "Bellevue",
+        "region": "PA",
+        "country": "US",
+        "website": "https://whiskerwonderlandcatlounge.com/",
+        "source_url": "https://whiskerwonderlandcatlounge.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.6921091,
+          32.8415864
+        ]
+      },
+      "properties": {
+        "id": "whiskers-and-soda-cat-cafe-dallas",
+        "name": "Whiskers and Soda Cat Cafe",
+        "address": "10320 Garland Road",
+        "city": "Dallas",
+        "region": "TX",
+        "country": "US",
+        "website": "https://whiskersandsoda.com/",
+        "source_url": "https://whiskersandsoda.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 13885970879,
+        "osm_type": "node"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1322946,
+          32.7630742
+        ]
+      },
+      "properties": {
+        "id": "whiskers-and-wine-bar-san-diego",
+        "name": "Whiskers and Wine Bar",
+        "address": "2856 Adams Ave.",
+        "city": "San Diego",
+        "region": "CA",
+        "country": "US",
+        "website": "https://www.whiskersandwinebar.com/",
+        "source_url": "https://www.whiskersandwinebar.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5954278,
+          39.059374
+        ]
+      },
+      "properties": {
+        "id": "whiskers-cat-cafe-kansas-city",
+        "name": "Whiskers Cat Cafe",
+        "address": "3705 Southwest Trafficway",
+        "city": "Kansas City",
+        "region": "MO",
+        "country": "US",
+        "website": "https://www.whiskerskc.com/",
+        "source_url": "https://www.whiskerskc.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.2753874,
+          44.5764508
+        ]
+      },
+      "properties": {
+        "id": "whiskers-cat-lounge-corvallis",
+        "name": "Whiskers Cat Lounge",
+        "address": "938 NW Kings Blvd",
+        "city": "Corvallis",
+        "region": "OR",
+        "country": "US",
+        "website": "https://whiskerscatlounge.square.site/",
+        "source_url": "https://whiskerscatlounge.square.site/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4513292,
+          37.7821567
+        ]
+      },
+      "properties": {
+        "id": "whiskerwood-haven-san-francisco",
+        "name": "Whiskerwood Haven",
+        "address": "3000 Geary Boulevard",
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US",
+        "website": "https://www.whiskerwoodhaven.com/",
+        "source_url": "https://www.whiskerwoodhaven.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.0755507,
+          46.8044035
+        ]
+      },
+      "properties": {
+        "id": "wired-whisker-duluth",
+        "name": "Wired Whisker",
+        "address": "1823 E Superior Street",
+        "city": "Duluth",
+        "region": "MN",
+        "country": "US",
+        "website": "https://www.wiredwhisker.com/",
+        "source_url": "https://www.wiredwhisker.com/",
+        "source": "manual",
+        "verified_at": "2026-07-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.6304742,
+          47.5990157
+        ]
+      },
+      "properties": {
+        "id": "ziggy-s-cat-lounge-bremerton",
+        "name": "Ziggy's Cat Lounge",
+        "address": "3627 Wheaton Way",
+        "city": "Bremerton",
+        "region": "WA",
+        "country": "US",
+        "website": "https://ziggyscatlounge.com/",
+        "source_url": "https://ziggyscatlounge.com/",
+        "source": "merged",
+        "verified_at": "2026-07-06",
+        "osm_id": 12372690585,
+        "osm_type": "node"
+      }
+    }
+  ]
+}
