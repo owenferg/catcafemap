@@ -51,9 +51,19 @@ function cafeInitials(feature: CatCafeFeature): string {
     .join("");
 }
 
-function thumb(feature: CatCafeFeature, large = false): HTMLDivElement {
+function cafeImageUrl(feature: CatCafeFeature): string | undefined {
+  const imageUrl = feature.properties.image_url?.trim();
+  return imageUrl || undefined;
+}
+
+function cssUrl(value: string): string {
+  const escaped = value.replace(/\\/g, "\\\\").replace(/"/g, '\\"').replace(/[\n\r\f]/g, "");
+  return `url("${escaped}")`;
+}
+
+function thumb(feature: CatCafeFeature): HTMLDivElement {
   const element = document.createElement("div");
-  element.className = large ? "cafe-thumb cafe-thumb-large" : "cafe-thumb";
+  element.className = "cafe-thumb";
   element.setAttribute("aria-hidden", "true");
   element.textContent = cafeInitials(feature);
   return element;
@@ -171,7 +181,6 @@ export function createSidePanel(options: SidePanelOptions): SidePanel {
     }
 
     const props = selectedCafe.properties;
-    cafeInfoPanel.append(thumb(selectedCafe, true));
 
     const title = document.createElement("h2");
     title.className = "cafe-title";
@@ -193,7 +202,18 @@ export function createSidePanel(options: SidePanelOptions): SidePanel {
     const address = document.createElement("p");
     address.textContent = addressText(selectedCafe) || "Address unavailable";
 
-    cafeInfoPanel.append(title, location, address);
+    const hero = document.createElement("div");
+    hero.className = "cafe-info-hero";
+    hero.dataset.initials = cafeInitials(selectedCafe);
+
+    const imageUrl = cafeImageUrl(selectedCafe);
+    if (imageUrl) {
+      hero.classList.add("has-image");
+      hero.style.setProperty("--cafe-image", cssUrl(imageUrl));
+    }
+
+    hero.append(title, location);
+    cafeInfoPanel.append(hero, address);
 
     if (props.website) {
       const website = document.createElement("a");

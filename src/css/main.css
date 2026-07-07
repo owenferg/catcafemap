@@ -18,6 +18,11 @@ body {
     sans-serif;
 }
 
+:root {
+  --mobile-search-height: 2.75rem;
+  --mobile-search-logo-clearance: calc(2rem + env(safe-area-inset-bottom, 0px));
+}
+
 button,
 input,
 select,
@@ -59,18 +64,18 @@ a {
   display: none;
 }
 
-.mapboxgl-ctrl-top-left {
-  top: 1rem;
-  left: calc(1rem + min(400px, calc(100vw - 2rem)) + 0.75rem);
+.mapboxgl-ctrl-bottom-right {
+  right: 1rem;
+  bottom: 1rem;
 }
 
-.mapboxgl-ctrl-top-left .mapboxgl-ctrl {
+.mapboxgl-ctrl-bottom-right .mapboxgl-ctrl {
   margin: 0;
 }
 
 @media (max-width: 640px) {
-  .mapboxgl-ctrl-top-left {
-    top: 1rem;
-    left: 1rem;
+  .mapboxgl-ctrl-bottom-right {
+    right: 0.75rem;
+    bottom: calc(var(--mobile-search-logo-clearance) + var(--mobile-search-height) + 0.75rem);
   }
 }

@@ -12,7 +12,7 @@ export function createMap(token: string): mapboxgl.Map {
     zoom: 3,
   });
 
-  map.addControl(new mapboxgl.NavigationControl(), "top-left");
+  map.addControl(new mapboxgl.NavigationControl(), "bottom-right");
   return map;
 }
 

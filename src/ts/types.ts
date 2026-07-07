@@ -7,6 +7,7 @@ export type CatCafeFeature = GeoJSON.Feature<
     city?: string;
     region?: string;
     country?: string;
+    image_url?: string;
     website?: string;
     source_url?: string;
     source?: string;
