@@ -12,6 +12,9 @@ export type CatCafeFeature = GeoJSON.Feature<
     price_text?: string;
     price_source_url?: string;
     enriched_at?: string;
+    google_maps_url?: string;
+    apple_maps_url?: string;
+    maps_verified_at?: string;
     website?: string;
     source_url?: string;
     source?: string;

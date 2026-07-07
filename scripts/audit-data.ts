@@ -139,6 +139,23 @@ function propertyString(feature: Feature, key: string): string {
   return typeof value === "string" ? value : "";
 }
 
+function isUrl(value: string): boolean {
+  try {
+    new URL(value);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+function hasNotFoundNote(row: Row, platform: "google" | "apple"): boolean {
+  return new RegExp(`${platform} maps? not found`, "i").test(row.maps_notes);
+}
+
+function isBlankGooglePlaceUrl(value: string): boolean {
+  return /^https:\/\/www\.google\.com\/maps\/place\/[^/]+$/i.test(value);
+}
+
 function findClosePairs(features: Feature[]): string[] {
   const pairs: string[] = [];
 
@@ -175,6 +192,18 @@ async function main(): Promise<void> {
     ),
   );
   const stale = activeRows.filter((row) => !row.verified_at || isStale(row.verified_at));
+  const missingGoogleMaps = activeRows.filter(
+    (row) => !row.google_maps_url && !hasNotFoundNote(row, "google"),
+  );
+  const missingAppleMaps = activeRows.filter(
+    (row) => !row.apple_maps_url && !hasNotFoundNote(row, "apple"),
+  );
+  const invalidMapUrls = activeRows.filter(
+    (row) =>
+      (row.google_maps_url && !isUrl(row.google_maps_url)) ||
+      (row.apple_maps_url && !isUrl(row.apple_maps_url)) ||
+      isBlankGooglePlaceUrl(row.google_maps_url),
+  );
   const weakInteractionEvidence = activeRows.filter(
     (row) => !INTERACTION_EVIDENCE_PATTERN.test(row.notes),
   );
@@ -242,6 +271,9 @@ async function main(): Promise<void> {
   console.log(`External baseline candidates needing review: ${pendingBaselineReviewRows.length}`);
   console.log(`Active cafes missing website/source_url: ${missingSource.length}`);
   console.log(`Active cafes missing image/pricing enrichment: ${missingEnrichment.length}`);
+  console.log(`Active cafes missing Google Maps links: ${missingGoogleMaps.length}`);
+  console.log(`Active cafes missing Apple Maps links: ${missingAppleMaps.length}`);
+  console.log(`Active cafes with invalid map URLs: ${invalidMapUrls.length}`);
   console.log(`Active cafes stale or unverified: ${stale.length}`);
   console.log(`Active cafes needing interaction/adoption evidence notes: ${weakInteractionEvidence.length}`);
 
@@ -265,6 +297,18 @@ async function main(): Promise<void> {
     console.log(`missing enrichment: ${row.name} (${row.city}, ${row.region})`);
   }
 
+  for (const row of missingGoogleMaps.slice(0, 20)) {
+    console.log(`missing Google Maps: ${row.name} (${row.city}, ${row.region})`);
+  }
+
+  for (const row of missingAppleMaps.slice(0, 20)) {
+    console.log(`missing Apple Maps: ${row.name} (${row.city}, ${row.region})`);
+  }
+
+  for (const row of invalidMapUrls.slice(0, 20)) {
+    console.log(`invalid map URL: ${row.name} (${row.city}, ${row.region})`);
+  }
+
   for (const feature of incompleteFeatures.slice(0, 20)) {
     console.log(`incomplete feature: ${propertyString(feature, "name")}`);
   }
@@ -285,6 +329,9 @@ async function main(): Promise<void> {
     missingSource.length > 0 && "active cafes missing website/source_url",
     stale.length > 0 && "active cafes stale or unverified",
     missingEnrichment.length > 0 && "active cafes missing image/pricing enrichment",
+    missingGoogleMaps.length > 0 && "active cafes missing Google Maps links",
+    missingAppleMaps.length > 0 && "active cafes missing Apple Maps links",
+    invalidMapUrls.length > 0 && "active cafes have invalid map URLs",
     unnotedReviewRows.length > 0 && "OSM candidates missing review notes",
     staleReviewNotes.length > 0 && "OSM review notes without candidates",
     incompleteFeatures.length > 0 && "published GeoJSON features incomplete",

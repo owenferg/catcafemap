@@ -28,6 +28,10 @@ type CafeRecord = {
   price_text?: string;
   price_source_url?: string;
   enriched_at?: string;
+  google_maps_url?: string;
+  apple_maps_url?: string;
+  maps_verified_at?: string;
+  maps_notes?: string;
   lat?: number;
   lon?: number;
   source: Source;
@@ -68,6 +72,9 @@ type FeatureProperties = {
   price_text?: string;
   price_source_url?: string;
   enriched_at?: string;
+  google_maps_url?: string;
+  apple_maps_url?: string;
+  maps_verified_at?: string;
   source: Source;
   verified_at?: string;
   osm_id?: number;
@@ -306,6 +313,10 @@ async function readManualRows(): Promise<CafeRecord[]> {
       price_text: row.price_text || undefined,
       price_source_url: row.price_source_url || undefined,
       enriched_at: row.enriched_at || undefined,
+      google_maps_url: row.google_maps_url || undefined,
+      apple_maps_url: row.apple_maps_url || undefined,
+      maps_verified_at: row.maps_verified_at || undefined,
+      maps_notes: row.maps_notes || undefined,
       lat: parseCoordinate(row.lat),
       lon: parseCoordinate(row.lon),
       source: "manual",
@@ -634,6 +645,9 @@ function toGeoJson(records: CafeRecord[]): GeoJSON.FeatureCollection<GeoJSON.Poi
           price_text: record.price_text,
           price_source_url: record.price_source_url,
           enriched_at: record.enriched_at,
+          google_maps_url: record.google_maps_url,
+          apple_maps_url: record.apple_maps_url,
+          maps_verified_at: record.maps_verified_at,
           source: record.source,
           verified_at: record.verified_at,
           osm_id: record.osm_id,

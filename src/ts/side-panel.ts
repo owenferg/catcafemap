@@ -126,13 +126,24 @@ function appendPrice(titleRow: HTMLElement, feature: CatCafeFeature): void {
   titleRow.append(price);
 }
 
-function placeholderButton(label: string): HTMLButtonElement {
-  const button = document.createElement("button");
-  button.className = "secondary-button";
-  button.type = "button";
-  button.disabled = true;
-  button.textContent = label;
-  return button;
+function mapLink(label: string, url: string | undefined): HTMLAnchorElement | HTMLButtonElement {
+  if (!url) {
+    const button = document.createElement("button");
+    button.className = "secondary-button";
+    button.type = "button";
+    button.disabled = true;
+    button.textContent = label;
+    return button;
+  }
+
+  const link = document.createElement("a");
+  link.className = "secondary-button";
+  link.href = url;
+  link.target = "_blank";
+  link.rel = "noreferrer";
+  link.textContent = label;
+  link.append(externalLinkIcon());
+  return link;
 }
 
 export function createSidePanel(options: SidePanelOptions): SidePanel {
@@ -269,7 +280,10 @@ export function createSidePanel(options: SidePanelOptions): SidePanel {
 
     const actions = document.createElement("div");
     actions.className = "panel-actions";
-    actions.append(placeholderButton("View on Google Maps"), placeholderButton("View on Apple Maps"));
+    actions.append(
+      mapLink("View on Google Maps", props.google_maps_url),
+      mapLink("View on Apple Maps", props.apple_maps_url),
+    );
     cafeInfoPanel.append(actions);
   }
 
