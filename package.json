@@ -9,6 +9,7 @@
     "preview": "vite preview",
     "fetch:osm": "tsx scripts/fetch-osm.ts",
     "build:data": "tsx scripts/build-geojson.ts",
+    "enrich:data": "tsx scripts/enrich-cafes.ts",
     "audit:data": "tsx scripts/audit-data.ts",
     "data": "npm run fetch:osm && npm run build:data && npm run audit:data"
   },

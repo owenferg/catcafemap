@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Cafe image unavailable">
+  <rect width="1200" height="800" fill="#f1f3f4"/>
+  <rect x="90" y="90" width="1020" height="620" rx="24" fill="#fff" stroke="#dadce0" stroke-width="8"/>
+  <circle cx="420" cy="330" r="80" fill="#e8f0fe"/>
+  <path d="M325 560c70-105 142-157 216-157 52 0 98 27 138 82 25-25 56-38 93-38 63 0 117 38 163 113H325z" fill="#d2e3fc"/>
+  <text x="600" y="650" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="700" fill="#5f6368">Image unavailable</text>
+</svg>

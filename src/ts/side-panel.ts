@@ -1,3 +1,4 @@
+import { formatCafePrice } from "./price";
 import type { CatCafeFeature } from "./types";
 import { cafeKey } from "./types";
 
@@ -66,7 +67,13 @@ function thumb(feature: CatCafeFeature): HTMLDivElement {
   const element = document.createElement("div");
   element.className = "cafe-thumb";
   element.setAttribute("aria-hidden", "true");
-  element.textContent = cafeInitials(feature);
+  const imageUrl = cafeImageUrl(feature);
+  if (imageUrl) {
+    element.classList.add("has-image");
+    element.style.backgroundImage = cssUrl(imageUrl);
+  } else {
+    element.textContent = cafeInitials(feature);
+  }
   return element;
 }
 
@@ -102,6 +109,21 @@ function closeIcon(): SVGSVGElement {
   path.setAttribute("fill", "currentColor");
   icon.append(path);
   return icon;
+}
+
+function appendPrice(titleRow: HTMLElement, feature: CatCafeFeature): void {
+  const priceText = formatCafePrice(feature);
+  if (!priceText) {
+    return;
+  }
+
+  const price = document.createElement("span");
+  price.className = "price";
+  if (/^temporarily closed$/i.test(feature.properties.price_text?.trim() ?? "")) {
+    price.classList.add("temporarily-closed");
+  }
+  price.textContent = priceText;
+  titleRow.append(price);
 }
 
 function placeholderButton(label: string): HTMLButtonElement {
@@ -169,11 +191,8 @@ export function createSidePanel(options: SidePanelOptions): SidePanel {
       const name = document.createElement("strong");
       setText(name, feature.properties.name || "Unnamed cat cafe");
 
-      const price = document.createElement("span");
-      price.className = "price";
-      price.textContent = "$$";
-
-      titleRow.append(name, price);
+      titleRow.append(name);
+      appendPrice(titleRow, feature);
 
       const location = document.createElement("span");
       location.className = "muted";
@@ -207,11 +226,8 @@ export function createSidePanel(options: SidePanelOptions): SidePanel {
     name.className = "cafe-name";
     name.textContent = props.name || "Unnamed cat cafe";
 
-    const price = document.createElement("span");
-    price.className = "price";
-    price.textContent = "$$";
-
-    title.append(name, price);
+    title.append(name);
+    appendPrice(title, selectedCafe);
 
     const location = document.createElement("p");
     location.className = "muted";

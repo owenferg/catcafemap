@@ -169,6 +169,11 @@ async function main(): Promise<void> {
   ]);
   const activeRows = manualRows.filter((row) => (row.status || "active") === "active");
   const missingSource = activeRows.filter((row) => !row.website || !row.source_url);
+  const missingEnrichment = activeRows.filter((row) =>
+    ["image_url", "image_source_url", "price_text", "price_source_url", "enriched_at"].some(
+      (key) => !row[key],
+    ),
+  );
   const stale = activeRows.filter((row) => !row.verified_at || isStale(row.verified_at));
   const weakInteractionEvidence = activeRows.filter(
     (row) => !INTERACTION_EVIDENCE_PATTERN.test(row.notes),
@@ -184,9 +189,22 @@ async function main(): Promise<void> {
   const seenIds = new Set<string>();
   const duplicateIds = new Set<string>();
   const incompleteFeatures = features.filter((feature) =>
-    ["id", "name", "address", "city", "region", "country", "website", "source_url", "verified_at"].some(
-      (key) => !propertyString(feature, key),
-    ),
+    [
+      "id",
+      "name",
+      "address",
+      "city",
+      "region",
+      "country",
+      "website",
+      "source_url",
+      "image_url",
+      "image_source_url",
+      "price_text",
+      "price_source_url",
+      "enriched_at",
+      "verified_at",
+    ].some((key) => !propertyString(feature, key)),
   );
   const invalidCoordinateFeatures = features.filter((feature) => {
     const coordinates = feature.geometry?.coordinates;
@@ -223,6 +241,7 @@ async function main(): Promise<void> {
   console.log(`OSM review notes without candidates: ${staleReviewNotes.length}`);
   console.log(`External baseline candidates needing review: ${pendingBaselineReviewRows.length}`);
   console.log(`Active cafes missing website/source_url: ${missingSource.length}`);
+  console.log(`Active cafes missing image/pricing enrichment: ${missingEnrichment.length}`);
   console.log(`Active cafes stale or unverified: ${stale.length}`);
   console.log(`Active cafes needing interaction/adoption evidence notes: ${weakInteractionEvidence.length}`);
 
@@ -240,6 +259,10 @@ async function main(): Promise<void> {
 
   for (const row of stale.slice(0, 20)) {
     console.log(`stale: ${row.name} (${row.city}, ${row.region})`);
+  }
+
+  for (const row of missingEnrichment.slice(0, 20)) {
+    console.log(`missing enrichment: ${row.name} (${row.city}, ${row.region})`);
   }
 
   for (const feature of incompleteFeatures.slice(0, 20)) {
@@ -261,6 +284,7 @@ async function main(): Promise<void> {
   const failures = [
     missingSource.length > 0 && "active cafes missing website/source_url",
     stale.length > 0 && "active cafes stale or unverified",
+    missingEnrichment.length > 0 && "active cafes missing image/pricing enrichment",
     unnotedReviewRows.length > 0 && "OSM candidates missing review notes",
     staleReviewNotes.length > 0 && "OSM review notes without candidates",
     incompleteFeatures.length > 0 && "published GeoJSON features incomplete",

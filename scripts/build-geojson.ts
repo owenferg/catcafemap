@@ -23,6 +23,11 @@ type CafeRecord = {
   country: Country;
   website?: string;
   source_url?: string;
+  image_url?: string;
+  image_source_url?: string;
+  price_text?: string;
+  price_source_url?: string;
+  enriched_at?: string;
   lat?: number;
   lon?: number;
   source: Source;
@@ -58,6 +63,11 @@ type FeatureProperties = {
   country: Country;
   website?: string;
   source_url?: string;
+  image_url?: string;
+  image_source_url?: string;
+  price_text?: string;
+  price_source_url?: string;
+  enriched_at?: string;
   source: Source;
   verified_at?: string;
   osm_id?: number;
@@ -291,6 +301,11 @@ async function readManualRows(): Promise<CafeRecord[]> {
       country: requireCountry(row.country),
       website: row.website || undefined,
       source_url: row.source_url || undefined,
+      image_url: row.image_url || undefined,
+      image_source_url: row.image_source_url || undefined,
+      price_text: row.price_text || undefined,
+      price_source_url: row.price_source_url || undefined,
+      enriched_at: row.enriched_at || undefined,
       lat: parseCoordinate(row.lat),
       lon: parseCoordinate(row.lon),
       source: "manual",
@@ -614,6 +629,11 @@ function toGeoJson(records: CafeRecord[]): GeoJSON.FeatureCollection<GeoJSON.Poi
           country: record.country,
           website: record.website,
           source_url: record.source_url,
+          image_url: record.image_url,
+          image_source_url: record.image_source_url,
+          price_text: record.price_text,
+          price_source_url: record.price_source_url,
+          enriched_at: record.enriched_at,
           source: record.source,
           verified_at: record.verified_at,
           osm_id: record.osm_id,

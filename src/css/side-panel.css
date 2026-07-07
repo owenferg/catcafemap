@@ -148,21 +148,27 @@
 
 .cafe-title {
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
-  gap: 0.35rem;
+  gap: 0.15rem 0.35rem;
   min-width: 0;
 }
 
 .cafe-title .cafe-name,
 .cafe-title strong {
+  flex: 1 1 auto;
   min-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  max-width: 100%;
+  overflow: visible;
+  overflow-wrap: break-word;
+  text-overflow: unset;
+  white-space: normal;
 }
 
 .cafe-title .price {
-  flex-shrink: 0;
+  flex: 0 0 auto;
+  max-width: 100%;
+  white-space: nowrap;
 }
 
 .result-card-body .muted {
@@ -185,20 +191,26 @@
   font-weight: 700;
 }
 
+.cafe-thumb.has-image {
+  background-position: center;
+  background-size: cover;
+}
+
 .cafe-info-hero {
   --cafe-image: none;
   position: relative;
   display: flex;
-  min-height: 11rem;
+  min-height: 14rem;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 5.5rem 0.9rem 0.9rem;
+  padding: 7rem 0.9rem 0.9rem;
   background:
     linear-gradient(
       to bottom,
-      rgba(255, 255, 255, 0.08) 0%,
-      rgba(255, 255, 255, 0.88) 68%,
-      #fff 100%
+      rgba(255, 255, 255, 0.04) 0%,
+      rgba(255, 255, 255, 0.45) 32%,
+      rgba(255, 255, 255, 0.9) 55%,
+      #fff 72%
     ),
     var(--cafe-image),
     linear-gradient(135deg, rgba(26, 115, 232, 0.14), rgba(24, 128, 56, 0.16)),
@@ -270,6 +282,10 @@
   color: #188038;
   font-size: 0.82rem;
   font-weight: 600;
+}
+
+.price.temporarily-closed {
+  color: #c5221f;
 }
 
 .website-link {
@@ -407,8 +423,8 @@
   }
 
   .cafe-info-hero {
-    min-height: 12rem;
-    padding-top: 6rem;
+    min-height: 15.5rem;
+    padding-top: 7.5rem;
   }
 
   .cafe-info-close {
