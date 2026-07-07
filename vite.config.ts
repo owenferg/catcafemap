@@ -1,5 +1,7 @@
 import { defineConfig } from "vite";
 
+import { cloudflare } from "@cloudflare/vite-plugin";
+
 function normalizeBasePath(value: string | undefined): string {
   if (!value || value === "/") {
     return "/";
@@ -10,6 +12,6 @@ function normalizeBasePath(value: string | undefined): string {
 }
 
 export default defineConfig({
-  plugins: [],
+  plugins: [cloudflare()],
   base: normalizeBasePath(process.env.VITE_BASE_PATH),
 });
