@@ -1,7 +1,7 @@
 import "mapbox-gl/dist/mapbox-gl.css";
 import "../css/main.css";
 import "../css/side-panel.css";
-import { addCafeMarkers, highlightCafeMarker } from "./map-layers";
+import { addCafeMarkers, clearCafeMarkerHighlight, highlightCafeMarker } from "./map-layers";
 import { createMap, fitMapToCafes, flyToCafe } from "./map";
 import { setupSearchPanel } from "./search-panel";
 import { createSidePanel } from "./side-panel";
@@ -47,6 +47,9 @@ async function main(): Promise<void> {
     onSelect(feature) {
       highlightCafeMarker(feature);
       flyToCafe(map, feature);
+    },
+    onDeselect() {
+      clearCafeMarkerHighlight();
     },
   });
 

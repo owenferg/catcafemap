@@ -64,18 +64,20 @@ a {
   display: none;
 }
 
-.mapboxgl-ctrl-bottom-right {
-  right: 1rem;
-  bottom: 1rem;
+.mapboxgl-ctrl-top-left {
+  top: 1rem;
+  left: calc(1rem + min(400px, calc(100vw - 2rem)) + 0.75rem);
 }
 
-.mapboxgl-ctrl-bottom-right .mapboxgl-ctrl {
+.mapboxgl-ctrl-top-left .mapboxgl-ctrl {
   margin: 0;
 }
 
 @media (max-width: 640px) {
-  .mapboxgl-ctrl-bottom-right {
+  .mapboxgl-ctrl-top-left {
+    top: auto;
     right: 0.75rem;
     bottom: calc(var(--mobile-search-logo-clearance) + var(--mobile-search-height) + 0.75rem);
+    left: auto;
   }
 }

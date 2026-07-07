@@ -32,3 +32,8 @@ export function highlightCafeMarker(cafe: CatCafeFeature): void {
     selectedMarker = marker;
   }
 }
+
+export function clearCafeMarkerHighlight(): void {
+  selectedMarker?.classList.remove("selected");
+  selectedMarker = undefined;
+}

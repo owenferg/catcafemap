@@ -187,6 +187,7 @@
 
 .cafe-info-hero {
   --cafe-image: none;
+  position: relative;
   display: flex;
   min-height: 11rem;
   flex-direction: column;
@@ -217,6 +218,29 @@
 
 .cafe-info-hero.has-image::before {
   content: "";
+}
+
+.cafe-info-close {
+  position: absolute;
+  top: 0.65rem;
+  right: 0.65rem;
+  display: inline-grid;
+  place-items: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  background: transparent;
+  border: none;
+  color: #3c4043;
+}
+
+.cafe-info-close:hover {
+  color: #202124;
+}
+
+.close-icon {
+  width: 0.9rem;
+  height: 0.9rem;
+  fill: currentColor;
 }
 
 #cafe-info-panel > :not(.cafe-info-hero) {
@@ -385,6 +409,11 @@
   .cafe-info-hero {
     min-height: 12rem;
     padding-top: 6rem;
+  }
+
+  .cafe-info-close {
+    top: 0.75rem;
+    right: 0.75rem;
   }
 
   .result-card {
