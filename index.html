@@ -6,8 +6,19 @@
     <title>Cat Cafe Map</title>
   </head>
   <body>
+    <aside id="side-panel" class="side-panel" aria-label="Cat cafe search and details">
+      <form id="search-form" class="search-panel" role="search">
+        <label class="sr-only" for="cafe-search">Search cat cafes</label>
+        <input id="cafe-search" name="search" type="search" placeholder="Search by name or place..." />
+      </form>
+      <div class="panel-stack">
+        <section id="results-panel" aria-label="Search results" hidden></section>
+        <section id="cafe-info-panel" aria-label="Cafe information" hidden></section>
+        <div id="panel-status" class="sr-only" role="status"></div>
+      </div>
+    </aside>
     <div id="map" aria-label="Cat cafe map"></div>
     <div id="status" role="status">Loading cat cafes...</div>
-    <script type="module" src="/src/main.ts"></script>
+    <script type="module" src="/src/ts/main.ts"></script>
   </body>
 </html>

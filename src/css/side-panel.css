@@ -1,0 +1,350 @@
+#side-panel,
+.side-panel {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 2;
+  display: flex;
+  width: min(400px, calc(100vw - 2rem));
+  max-height: calc(100dvh - 2rem);
+  flex-direction: column;
+  gap: 0.75rem;
+  overflow: visible;
+}
+
+#search-form,
+.search-panel {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: grid;
+  gap: 0.45rem;
+  padding: 0.9rem;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(60, 64, 67, 0.3);
+}
+
+#search-form label,
+.search-label {
+  color: #5f6368;
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+#cafe-search {
+  width: 100%;
+  min-height: 2.75rem;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  padding: 0.65rem 0.8rem;
+  background: #fff;
+  color: #202124;
+  font-size: 1rem;
+}
+
+#cafe-search::placeholder {
+  color: #80868b;
+}
+
+#cafe-search:focus {
+  border-color: #1a73e8;
+  box-shadow: 0 0 0 1px #1a73e8;
+  outline: none;
+}
+
+.panel-stack {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: visible;
+}
+
+.panel-stack:not(:has(#results-panel:not([hidden]), #cafe-info-panel:not([hidden]))) {
+  display: none;
+}
+
+.panel-stack:has(#results-panel:not([hidden])) {
+  min-height: min(24rem, calc(100dvh - 7rem));
+}
+
+#results,
+#results-panel {
+  min-height: 0;
+  flex: 1 1 auto;
+  overflow: auto;
+  padding: 0.5rem;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(60, 64, 67, 0.3);
+}
+
+#results-panel:not([hidden]) {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  max-height: min(24rem, calc(100dvh - 7rem));
+}
+
+#cafe-info,
+#cafe-info-panel {
+  flex: 0 0 auto;
+  min-height: 0;
+  max-height: calc(100dvh - 6.75rem);
+  overflow: auto;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  padding: 0.9rem;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(60, 64, 67, 0.3);
+}
+
+.result-card {
+  display: grid;
+  grid-template-columns: 4.5rem minmax(0, 1fr);
+  gap: 0.75rem;
+  width: 100%;
+  padding: 0.65rem;
+  border: 0;
+  border-radius: 8px;
+  background: #fff;
+  color: inherit;
+  text-align: left;
+}
+
+.result-card + .result-card {
+  margin-top: 0.25rem;
+}
+
+.result-card:hover {
+  background: #f8fafd;
+}
+
+.result-card:focus-visible {
+  background: #eef4ff;
+}
+
+.result-card.selected {
+  background: #e8f0fe;
+}
+
+.result-card-body {
+  display: grid;
+  align-content: center;
+  gap: 0.2rem;
+  min-width: 0;
+}
+
+.cafe-title {
+  display: flex;
+  align-items: baseline;
+  gap: 0.35rem;
+  min-width: 0;
+}
+
+.cafe-title .cafe-name,
+.cafe-title strong {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cafe-title .price {
+  flex-shrink: 0;
+}
+
+.result-card-body .muted {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.cafe-thumb {
+  display: grid;
+  place-items: center;
+  width: 4.5rem;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 6px;
+  background:
+    linear-gradient(135deg, rgba(26, 115, 232, 0.14), rgba(24, 128, 56, 0.16)),
+    #f1f3f4;
+  color: #3c4043;
+  font-weight: 700;
+}
+
+.cafe-thumb-large {
+  width: 100%;
+  max-height: 11rem;
+  margin-bottom: 0.9rem;
+  aspect-ratio: 16 / 9;
+  font-size: 2rem;
+}
+
+.muted,
+.meta {
+  color: #5f6368;
+}
+
+.meta {
+  font-size: 0.82rem;
+}
+
+#cafe-info-panel h2,
+#cafe-info-panel p {
+  margin: 0 0 0.55rem;
+}
+
+.price {
+  color: #188038;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.website-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 0.25rem 0 0.2rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.website-link:hover {
+  text-decoration: underline;
+}
+
+.panel-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  width: 100%;
+  margin: 0.75rem 0;
+}
+
+.panel-actions .secondary-button {
+  padding: 0.55rem 0.45rem;
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+
+.secondary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  width: 100%;
+  border: 1px solid #dadce0;
+  border-radius: 6px;
+  background: #fff;
+  padding: 0.55rem 0.8rem;
+  color: #1a73e8;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.secondary-button:disabled,
+.map-placeholder-button:disabled,
+.placeholder-map-button:disabled {
+  cursor: not-allowed;
+  border-color: #e8eaed;
+  background: #f1f3f4;
+  color: #80868b;
+}
+
+.external-link-icon {
+  width: 1em;
+  height: 1em;
+  flex: 0 0 auto;
+  fill: currentColor;
+}
+
+.map-marker {
+  padding: 0;
+  width: 1.75rem;
+  height: 1.75rem;
+  border: 2px solid #fff;
+  border-radius: 50% 50% 50% 0;
+  background: #d93025;
+  box-shadow: 0 1px 4px rgba(60, 64, 67, 0.35);
+  transform: rotate(-45deg);
+}
+
+.map-marker.selected {
+  background: #1a73e8;
+  box-shadow:
+    0 0 0 4px rgba(26, 115, 232, 0.2),
+    0 2px 6px rgba(60, 64, 67, 0.4);
+}
+
+.empty-state {
+  padding: 1.5rem 1rem;
+  color: #5f6368;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  #side-panel,
+  .side-panel {
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    max-height: min(55dvh, 28rem);
+    padding: 0 0.75rem 0.75rem;
+  }
+
+  #search-form,
+  .search-panel {
+    top: auto;
+    bottom: 0;
+    order: 3;
+    padding: 0.75rem;
+  }
+
+  .panel-stack:has(#results-panel:not([hidden])) {
+    min-height: min(22rem, calc(55dvh - 5.5rem));
+  }
+
+  #results,
+  #results-panel {
+    padding: 0.4rem 0.5rem;
+  }
+
+  #results-panel:not([hidden]) {
+    max-height: min(22rem, calc(55dvh - 5.5rem));
+  }
+
+  #cafe-info,
+  #cafe-info-panel {
+    max-height: calc(55dvh - 5.5rem);
+  }
+
+  .result-card {
+    grid-template-columns: 3.75rem minmax(0, 1fr);
+    padding: 0.55rem;
+  }
+
+  .cafe-thumb {
+    width: 3.75rem;
+  }
+}
