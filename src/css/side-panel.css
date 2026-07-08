@@ -288,19 +288,6 @@
   color: #c5221f;
 }
 
-.website-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35rem;
-  margin: 0.25rem 0 0.2rem;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.website-link:hover {
-  text-decoration: underline;
-}
-
 .panel-actions {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -316,6 +303,7 @@
 }
 
 .secondary-button {
+  position: relative;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -330,6 +318,23 @@
   text-decoration: none;
 }
 
+.share-button[data-copied="true"]::after {
+  position: absolute;
+  bottom: calc(100% + 0.4rem);
+  left: 50%;
+  width: max-content;
+  max-width: min(14rem, 70vw);
+  transform: translateX(-50%);
+  border-radius: 6px;
+  background: #202124;
+  color: #fff;
+  content: "Copied to clipboard!";
+  font-size: 0.78rem;
+  line-height: 1;
+  padding: 0.5rem 0.65rem;
+  pointer-events: none;
+}
+
 .secondary-button:disabled,
 .map-placeholder-button:disabled,
 .placeholder-map-button:disabled {
@@ -339,7 +344,8 @@
   color: #80868b;
 }
 
-.external-link-icon {
+.external-link-icon,
+.share-icon {
   width: 1em;
   height: 1em;
   flex: 0 0 auto;

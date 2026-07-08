@@ -94,6 +94,23 @@ function externalLinkIcon(): SVGSVGElement {
   return icon;
 }
 
+function shareIcon(): SVGSVGElement {
+  const icon = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+  icon.setAttribute("class", "share-icon");
+  icon.setAttribute("viewBox", "0 0 448 512");
+  icon.setAttribute("aria-hidden", "true");
+  icon.setAttribute("focusable", "false");
+
+  const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+  path.setAttribute(
+    "d",
+    "M352 224c53 0 96-43 96-96s-43-96-96-96-96 43-96 96c0 4 .2 8 .7 11.9l-94.1 47C145.4 170.2 121.9 160 96 160c-53 0-96 43-96 96s43 96 96 96c25.9 0 49.4-10.2 66.6-26.9l94.1 47c-.5 3.9-.7 7.8-.7 11.9 0 53 43 96 96 96s96-43 96-96-43-96-96-96c-25.9 0-49.4 10.2-66.6 26.9l-94.1-47c.5-3.9 .7-7.8 .7-11.9s-.2-8-.7-11.9l94.1-47C302.6 213.8 326.1 224 352 224z",
+  );
+  path.setAttribute("fill", "currentColor");
+  icon.append(path);
+  return icon;
+}
+
 function closeIcon(): SVGSVGElement {
   const icon = document.createElementNS("http://www.w3.org/2000/svg", "svg");
   icon.setAttribute("class", "close-icon");
@@ -144,6 +161,36 @@ function mapLink(label: string, url: string | undefined): HTMLAnchorElement | HT
   link.textContent = label;
   link.append(externalLinkIcon());
   return link;
+}
+
+function cafeShareUrl(feature: CatCafeFeature): string {
+  const url = new URL(window.location.href);
+  url.searchParams.set("cafe", cafeKey(feature));
+  return url.toString();
+}
+
+async function copyText(text: string): Promise<void> {
+  if (navigator.clipboard) {
+    try {
+      await navigator.clipboard.writeText(text);
+      return;
+    } catch {
+      // Fall back for local/http contexts where Clipboard API is present but blocked.
+    }
+  }
+
+  const textarea = document.createElement("textarea");
+  textarea.value = text;
+  textarea.style.position = "fixed";
+  textarea.style.opacity = "0";
+  document.body.append(textarea);
+  textarea.select();
+  document.execCommand("copy");
+  textarea.remove();
+}
+
+function canUseNativeShare(): boolean {
+  return window.matchMedia("(pointer: coarse)").matches && Boolean(navigator.share);
 }
 
 export function createSidePanel(options: SidePanelOptions): SidePanel {
@@ -267,20 +314,46 @@ export function createSidePanel(options: SidePanelOptions): SidePanel {
     hero.append(closeButton, title, location);
     cafeInfoPanel.append(hero, address);
 
+    const actions = document.createElement("div");
+    actions.className = "panel-actions";
+
     if (props.website) {
       const website = document.createElement("a");
-      website.className = "website-link";
+      website.className = "secondary-button";
       website.href = props.website;
       website.target = "_blank";
       website.rel = "noreferrer";
       website.textContent = "Visit website";
       website.append(externalLinkIcon());
-      cafeInfoPanel.append(website);
+      actions.append(website);
     }
 
-    const actions = document.createElement("div");
-    actions.className = "panel-actions";
+    const share = document.createElement("button");
+    share.className = "secondary-button share-button";
+    share.type = "button";
+    share.textContent = "Share";
+    share.append(shareIcon());
+    share.addEventListener("click", async () => {
+      if (!selectedCafe) {
+        return;
+      }
+
+      const url = cafeShareUrl(selectedCafe);
+      if (canUseNativeShare()) {
+        await navigator.share({
+          title: selectedCafe.properties.name || "Cat cafe",
+          url,
+        });
+        return;
+      }
+
+      await copyText(url);
+      share.dataset.copied = "true";
+      window.setTimeout(() => delete share.dataset.copied, 1800);
+    });
+
     actions.append(
+      share,
       mapLink("View on Google Maps", props.google_maps_url),
       mapLink("View on Apple Maps", props.apple_maps_url),
     );

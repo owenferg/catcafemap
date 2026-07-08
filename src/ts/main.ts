@@ -5,7 +5,7 @@ import { addCafeMarkers, clearCafeMarkerHighlight, highlightCafeMarker } from ".
 import { createMap, fitMapToCafes, flyToCafe } from "./map";
 import { setupSearchPanel } from "./search-panel";
 import { createSidePanel } from "./side-panel";
-import type { CatCafeCollection } from "./types";
+import { cafeKey, type CatCafeCollection } from "./types";
 
 const statusElement = document.querySelector<HTMLDivElement>("#status");
 const searchInput = document.querySelector<HTMLInputElement>("#cafe-search");
@@ -21,6 +21,10 @@ function clearStatus(): void {
   if (statusElement) {
     statusElement.textContent = "";
   }
+}
+
+function sharedCafeKey(): string | null {
+  return new URLSearchParams(window.location.search).get("cafe");
 }
 
 async function loadCafes(): Promise<CatCafeCollection> {
@@ -65,6 +69,13 @@ async function main(): Promise<void> {
     sidePanel.setCafes(cafes);
     addCafeMarkers(map, cafes, (feature) => sidePanel.selectCafe(feature, true));
     fitMapToCafes(map, cafes);
+
+    const shareKey = sharedCafeKey();
+    const sharedCafe = shareKey ? cafes.find((feature) => cafeKey(feature) === shareKey) : undefined;
+    if (sharedCafe) {
+      sidePanel.selectCafe(sharedCafe, true);
+    }
+
     setupSearchPanel({
       input: searchInput,
       onQueryChange(hasQuery) {
